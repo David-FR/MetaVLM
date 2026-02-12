@@ -21,7 +21,7 @@ This repository contains the **MetaDrive-VLM Dataset**, a comprehensive collecti
 
 
 
-## 🎯 Base Scenarios
+## Base Scenarios
 
 The dataset comprises 20 base scenarios representing documented AV failures:
 
@@ -57,3 +57,25 @@ The dataset comprises 20 base scenarios representing documented AV failures:
 | REP_TBD_19 | TBD | TBD | TBD | TBD | To be finalized |
 | REP_TBD_20 | TBD | TBD | TBD | TBD | To be finalized |
 
+
+## Environmental Variations
+
+Each base scenario can be augmented with environmental variations:
+
+### Variation Dimensions
+
+**Weather Conditions:**
+- `CLEAR`: No precipitation, good visibility (>10km)
+- `RAIN`: Light to moderate rainfall, wet roads
+- `FOG`: Reduced visibility (1-5km)
+- `SNOW`: Snow coverage, icy roads (where applicable)
+
+**Time of Day:**
+- `DAY`: Full daylight (10:00-16:00)
+- `TWILIGHT`: Dawn/dusk (6:00-8:00 or 18:00-20:00)
+- `NIGHT`: Low light conditions (22:00-4:00)
+
+**Traffic Density:**
+- `SPARSE`: <5 vehicles in scene
+- `MODERATE`: 5-15 vehicles in scene
+- `DENSE`: >15 vehicles in scene
