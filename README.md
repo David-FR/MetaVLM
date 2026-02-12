@@ -38,7 +38,7 @@ The dataset comprises 20 base scenarios representing documented AV failures:
 | VID_ROBO_07 | Robotaxi Incident | 20-40 km/h | [Reddit/Dashcam](URL_PLACEHOLDER_7) | Autonomous mode |
 | VID_M3_08 | Model 3 Front Crash | 35-65 km/h | [YouTube](URL_PLACEHOLDER_8) | FSD 13.2.8 |
 | VID_CRASH_09 | High-Speed Collision | 80-110 km/h | [News Archive](URL_PLACEHOLDER_9) | Highway scenario |
-| VID_BIKE_10 | Bike Crash | 40-70 km/h | [NYTimes Investigation](URL_PLACEHOLDER_10) | To be finalized |
+| VID_BIKE_10 | Bike Crash | 40-70 km/h | [NYTimes Investigation](https://en.wikipedia.org/wiki/Death_of_Elaine_Herzberg) | Pedestrian Fatality |
 
 *Note: Full details including exact source URLs and reconstruction parameters available in `/scenarios/base_scenarios/`*
 
