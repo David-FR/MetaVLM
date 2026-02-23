@@ -1,4 +1,4 @@
-MetaVLM Dataset
+# MetaVLM Dataset
 
 ## Overview
 
@@ -29,32 +29,33 @@ The dataset comprises 20 base scenarios representing documented AV failures:
 
 | ID | Name | Speed Range | Source | Notes |
 |----|------|-------------|--------|-------|
-| VID_FTSA_01 | Secondary Collision | 25-60 km/h | [WSJ Investigation](URL_PLACEHOLDER_1) | Tesla FSD failure |
-| VID_FTSB_02 | Rear-End Collision | 40-80 km/h | [WSJ Investigation](URL_PLACEHOLDER_2) | High-speed impact |
-| VID_FTSI_03 | Intersection Failure | 15-45 km/h | [WSJ Investigation](URL_PLACEHOLDER_3) | Red light scenario |
-| VID_LV_04 | Lane Departure | 60-90 km/h | [WSJ Investigation](URL_PLACEHOLDER_4) | Highway scenario |
-| VID_ORS_05 | Off-Road Hazard | 30-70 km/h | [WSJ Investigation](URL_PLACEHOLDER_5) | Road edge departure |
-| VID_FSD_06 | FSD Exit Attempt | 50-70 km/h | [Reddit/Dashcam](URL_PLACEHOLDER_6) | FSD v13.2.8 failure |
-| VID_ROBO_07 | Robotaxi Incident | 20-40 km/h | [Reddit/Dashcam](URL_PLACEHOLDER_7) | Autonomous mode |
-| VID_M3_08 | Model 3 Front Crash | 35-65 km/h | [YouTube](URL_PLACEHOLDER_8) | FSD 13.2.8 |
-| VID_CRASH_09 | High-Speed Collision | 80-110 km/h | [News Archive](URL_PLACEHOLDER_9) | Highway scenario |
-| VID_BIKE_10 | Bike Crash | 40-70 km/h | [NYTimes Investigation](https://en.wikipedia.org/wiki/Death_of_Elaine_Herzberg) | Pedestrian Fatality |
+| 01_VID_FTSA | Secondary Collision | 25-60 km/h | [WSJ Investigation](https://www.wsj.com/business/autos/tesla-autopilot-crash-investigation-997b0129) | Tesla FSD failure |
+| 02_VID_FTSB | Rear-End Collision | 40-80 km/h | [WSJ Investigation](https://www.wsj.com/business/autos/tesla-autopilot-crash-investigation-997b0129) | High-speed impact |
+| 03_VID_FTSI | Intersection Failure | 15-45 km/h | [WSJ Investigation](https://www.wsj.com/business/autos/tesla-autopilot-crash-investigation-997b0129) | Red light scenario |
+| 04_VID_LV | Lane Departure | 60-90 km/h | [WSJ Investigation](https://www.wsj.com/business/autos/tesla-autopilot-crash-investigation-997b0129) | Highway scenario |
+| 05_VID_ORS | Off-Road Hazard | 30-70 km/h | [WSJ Investigation](https://www.wsj.com/business/autos/tesla-autopilot-crash-investigation-997b0129) | Road edge departure |
+| 06_VID_FSD | FSD Exit Attempt | 50-70 km/h | [Reddit/Dashcam](https://www.reddit.com/r/SelfDrivingCars/comments/1ixjpgk/fsd_supervised_v1328_mylr_2023_tried_to_exit_when/#lightbox) | FSD v13.2.8 failure |
+| 07_VID_ROBO | Robotaxi Incident | 20-40 km/h | [Reddit/Dashcam](https://www.reddit.com/r/SelfDrivingCars/comments/1li2cil/tesla_robotaxi_day_1_significant_screwup_not_oc/) | Autonomous mode |
+| 08_VID_M3 | Model 3 Front Crash | 35-65 km/h | [YouTube](https://www.youtube.com/watch?v=frGoalySCns) | FSD 13.2.8 |
+| 09_VID_CRASH | High-Speed Collision Cops | 80-110 km/h | [WSJ Video Report](https://www.youtube.com/watch?v=V2u3dcH2VGM) | Highway scenario |
+| 10_VID_BIKE | Bike Crash | 40-70 km/h | [The Guardian Investigation](https://www.theguardian.com/technology/2018/mar/22/self-driving-car-uber-death-woman-failure-fatal-crash-arizona) | Pedestrian Fatality |
 
 *Note: Full details including exact source URLs and reconstruction parameters available in `/scenarios/base_scenarios/`*
 
 ### Report-Sourced Scenarios (10 scenarios)
 | ID | Name | Speed Range | Source | Notes |
 |----|------|-------------|--------|-------|
-| REP_REAREND_11 | Rear-End Crash | 45-75 km/h | [NHTSA Report](URL_PLACEHOLDER_11) | Stop-and-go traffic |
-| REP_PEDEST_12 | Pedestrian Encounter | 30-50 km/h | [Public Report](URL_PLACEHOLDER_12) | Crosswalk scenario |
-| REP_CYCLIST_13 | Cyclist Interaction | 25-45 km/h | [Public Report](URL_PLACEHOLDER_13) | Bike lane scenario |
-| REP_LANEDEP_14 | Lane Departure | 70-95 km/h | [NHTSA Report](URL_PLACEHOLDER_14) | Highway curve |
-| REP_MULTIINT_15 | Multi-Vehicle Intersection | 20-55 km/h | [Public Report](URL_PLACEHOLDER_15) | Complex intersection |
-| REP_TBD_16 | TBD | TBD | [TBD](URL_PLACEHOLDER_16) | To be finalized |
-| REP_TBD_17 | TBD | TBD | [TBD](URL_PLACEHOLDER_17) | To be finalized |
-| REP_TBD_18 | TBD | TBD | [TBD](URL_PLACEHOLDER_18) | To be finalized |
-| REP_TBD_19 | TBD | TBD | [TBD](URL_PLACEHOLDER_19) | To be finalized |
-| REP_TBD_20 | TBD | TBD | [TBD](URL_PLACEHOLDER_20) | To be finalized |
+| 11_REP_HAND | Handan Stationary Truck | 95-105 km/h | [CNET](https://www.cnet.com/roadshow/news/dash-cam-showed-fatal-tesla-crash-in-china/) | First China Autopilot fatality |
+| 12_REP_WILL | Williston Semi-Trailer | 100-110 km/h | [The Guardian](https://www.theguardian.com/technology/2016/jun/30/tesla-autopilot-death-self-driving-car-elon-musk) | First US Autopilot fatality |
+| 13_REP_MTV | Mountain View Barrier | 95-110 km/h | [Reuters](https://www.reuters.com/article/us-tesla-crash/tesla-says-crashed-vehicle-had-been-on-autopilot-prior-to-accident-idUSKBN1H7023/) | Highway barrier collision |
+| 14_REP_KAN | Kanagawa Pedestrian | 25-40 km/h | [Forbes](https://www.forbes.com/sites/lanceeliot/2020/05/16/lawsuit-against-tesla-for-autopilot-engaged-pedestrian-death-could-disrupt-full-self-driving-progress/) | First Autopilot pedestrian fatality |
+| 15_REP_DELR | Delray Beach Semi-Trailer | 80-95 km/h | [WPTV](https://www.wptv.com/news/region-s-palm-beach-county/serious-crash-investigated-on-u-s-441-in-southern-palm-beach-county) | Underride collision scenario |
+| 16_REP_KEYL | Key Largo Stop Sign | 50-65 km/h | [New York Times](https://www.nytimes.com/2021/08/17/business/tesla-autopilot-accident.html) | Intersection stop sign failure |
+| 17_REP_CLVD | Cloverdale Fire Truck | 105-115 km/h | [Dubois County Herald](https://www.duboiscountyherald.com/news/state/telsa-rear-ends-fire-truck-killing-woman/article_b1388528-30c8-5afd-aafb-5129cb77de5b.html) | Stationary emergency vehicle |
+| 18_REP_GARD | Gardena Red Light | 65-80 km/h | [AP News](https://apnews.com/article/6eae3986e7d9c1d00db7d52146cddf23) | Nighttime red light failure |
+| 19_REP_AREN | Arendal Parked Truck | 105-115 km/h | [AIBN Norway](https://havarikommisjonen.no/Vei/Avgitte-rapporter/2022-06) | Tunnel exit obstruction |
+| 20_REP_FONT | Fontana Overturned Trailer | 100-110 km/h | [CBS News LA](https://www.cbsnews.com/losangeles/news/tesla-driver-killed-big-rig-wreck-on-210-freeway-in-fontana-good-samaritan-hurt/) | Nighttime freeway obstruction |
+
 
 
 
