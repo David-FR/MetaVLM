@@ -27,18 +27,18 @@ The dataset comprises 20 base scenarios representing documented AV failures:
 
 ### Video-Sourced Scenarios (10 scenarios)
 
-| ID | Name | Speed Range | Source | Notes |
-|----|------|-------------|--------|-------|
-| 01_VID_FTSA | Secondary Collision | 25-60 km/h | [WSJ Investigation](https://www.wsj.com/business/autos/tesla-autopilot-crash-investigation-997b0129) | Tesla FSD failure |
-| 02_VID_FTSB | Rear-End Collision | 40-80 km/h | [WSJ Investigation](https://www.wsj.com/business/autos/tesla-autopilot-crash-investigation-997b0129) | High-speed impact |
-| 03_VID_FTSI | Intersection Failure | 15-45 km/h | [WSJ Investigation](https://www.wsj.com/business/autos/tesla-autopilot-crash-investigation-997b0129) | Red light scenario |
-| 04_VID_LV | Lane Departure | 60-90 km/h | [WSJ Investigation](https://www.wsj.com/business/autos/tesla-autopilot-crash-investigation-997b0129) | Highway scenario |
-| 05_VID_ORS | Off-Road Hazard | 30-70 km/h | [WSJ Investigation](https://www.wsj.com/business/autos/tesla-autopilot-crash-investigation-997b0129) | Road edge departure |
-| 06_VID_FSD | FSD Exit Attempt | 50-70 km/h | [Reddit/Dashcam](https://www.reddit.com/r/SelfDrivingCars/comments/1ixjpgk/fsd_supervised_v1328_mylr_2023_tried_to_exit_when/#lightbox) | FSD v13.2.8 failure |
-| 07_VID_ROBO | Robotaxi Incident | 20-40 km/h | [Reddit/Dashcam](https://www.reddit.com/r/SelfDrivingCars/comments/1li2cil/tesla_robotaxi_day_1_significant_screwup_not_oc/) | Autonomous mode |
-| 08_VID_M3 | Model 3 Front Crash | 35-65 km/h | [YouTube](https://www.youtube.com/watch?v=frGoalySCns) | FSD 13.2.8 |
-| 09_VID_CRASH | High-Speed Collision Cops | 80-110 km/h | [WSJ Video Report](https://www.youtube.com/watch?v=V2u3dcH2VGM) | Highway scenario |
-| 10_VID_BIKE | Bike Crash | 40-70 km/h | [The Guardian Investigation](https://www.theguardian.com/technology/2018/mar/22/self-driving-car-uber-death-woman-failure-fatal-crash-arizona) | Pedestrian Fatality |
+| ID | Name | Speed | Date | Location | Notes |
+|----|------|-------|------|----------|-------|
+| [01\_VID\_FTSA](scenarios/01_VID_FTSA.md) | Secondary Collision | ~92 km/h | Aug 15, 2023 | CA-101 | Tesla FSD failure |
+| [02\_VID\_FTSB](scenarios/02_VID_FTSB.md) | Rear-End Collision | ~73 km/h | Jun 22, 2023 | I-5 | High-speed impact |
+| [03\_VID\_FTSI](scenarios/03_VID_FTSI.md) | Intersection Failure | ~6 km/h | Sep 10, 2023 | Urban intersection | Red light scenario |
+| [04\_VID\_LV](scenarios/04_VID_LV.md) | Lane Departure | ~88 km/h | Jul 28, 2023 | US-101 | Highway scenario |
+| [05\_VID\_ORS](scenarios/05_VID_ORS.md) | Off-Road Hazard | ~82 km/h | May 14, 2023 | Unknown | Road edge departure |
+| [06\_VID\_FSD](scenarios/06_VID_FSD.md) | FSD Exit Attempt | ~58 km/h | Unknown | Highway | FSD v13.2.8 failure |
+| [07\_VID\_ROBO](scenarios/07_VID_ROBO.md) | Robotaxi Incident | ~34 km/h | Jun 22, 2025 | Urban | FSD V14.3 autonomous mode |
+| [08\_VID\_M3](scenarios/08_VID_M3.md) | Model 3 FSD Crash | ~72 km/h | Feb 27, 2025 | Rural highway | FSD v13.2.8 failure |
+| [09\_VID\_CRASH](scenarios/09_VID_CRASH.md) | High-Speed Highway Collision | ~87 km/h | Feb 27, 2021 | Highway | Nighttime scenario |
+| [10\_VID\_BIKE](scenarios/10_VID_BIKE.md) | Pedestrian Fatality | ~61 km/h | Mar 18, 2018 | Highway | Nighttime fatality |
 
 *Note: Full details including exact source URLs and reconstruction parameters available in `/scenarios/base_scenarios/`*
 
