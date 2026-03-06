@@ -43,18 +43,19 @@ The dataset comprises 20 base scenarios representing documented AV failures:
 *Note: Full details including exact source URLs and reconstruction parameters available in `/scenarios/base_scenarios/`*
 
 ### Report-Sourced Scenarios (10 scenarios)
-| ID | Name | Speed Range | Source | Notes |
-|----|------|-------------|--------|-------|
-| 11_REP_HAND | Handan Stationary Truck | 95-105 km/h | [CNET](https://www.cnet.com/roadshow/news/dash-cam-showed-fatal-tesla-crash-in-china/) | First China Autopilot fatality |
-| 12_REP_WILL | Williston Semi-Trailer | 100-110 km/h | [The Guardian](https://www.theguardian.com/technology/2016/jun/30/tesla-autopilot-death-self-driving-car-elon-musk) | First US Autopilot fatality |
-| 13_REP_MTV | Mountain View Barrier | 95-110 km/h | [Reuters](https://www.reuters.com/article/us-tesla-crash/tesla-says-crashed-vehicle-had-been-on-autopilot-prior-to-accident-idUSKBN1H7023/) | Highway barrier collision |
-| 14_REP_KAN | Kanagawa Pedestrian | 25-40 km/h | [Forbes](https://www.forbes.com/sites/lanceeliot/2020/05/16/lawsuit-against-tesla-for-autopilot-engaged-pedestrian-death-could-disrupt-full-self-driving-progress/) | First Autopilot pedestrian fatality |
-| 15_REP_DELR | Delray Beach Semi-Trailer | 80-95 km/h | [WPTV](https://www.wptv.com/news/region-s-palm-beach-county/serious-crash-investigated-on-u-s-441-in-southern-palm-beach-county) | Underride collision scenario |
-| 16_REP_KEYL | Key Largo Stop Sign | 50-65 km/h | [New York Times](https://www.nytimes.com/2021/08/17/business/tesla-autopilot-accident.html) | Intersection stop sign failure |
-| 17_REP_CLVD | Cloverdale Fire Truck | 105-115 km/h | [Dubois County Herald](https://www.duboiscountyherald.com/news/state/telsa-rear-ends-fire-truck-killing-woman/article_b1388528-30c8-5afd-aafb-5129cb77de5b.html) | Stationary emergency vehicle |
-| 18_REP_GARD | Gardena Red Light | 65-80 km/h | [AP News](https://apnews.com/article/6eae3986e7d9c1d00db7d52146cddf23) | Nighttime red light failure |
-| 19_REP_AREN | Arendal Parked Truck | 105-115 km/h | [AIBN Norway](https://havarikommisjonen.no/Vei/Avgitte-rapporter/2022-06) | Tunnel exit obstruction |
-| 20_REP_FONT | Fontana Overturned Trailer | 100-110 km/h | [CBS News LA](https://www.cbsnews.com/losangeles/news/tesla-driver-killed-big-rig-wreck-on-210-freeway-in-fontana-good-samaritan-hurt/) | Nighttime freeway obstruction |
+
+| ID | Name | Speed | Date | Location | Notes |
+|----|------|-------|------|----------|-------|
+| [11\_REP\_HAND](scenarios/11_REP_HAND.md) | Handan Stationary Truck | ~100 km/h | Jan 20, 2016 | Handan, China | First China Autopilot fatality |
+| [12\_REP\_WILL](scenarios/12_REP_WILL.md) | Williston Semi-Trailer | ~105 km/h | May 7, 2016 | Williston, FL | First US Autopilot fatality |
+| [13\_REP\_MTV](scenarios/13_REP_MTV.md) | Mountain View Barrier | ~105 km/h | Mar 23, 2018 | Mountain View, CA | Highway barrier collision |
+| [14\_REP\_KAN](scenarios/14_REP_KAN.md) | Kanagawa Pedestrian | ~39 km/h | Apr 29, 2018 | Kanagawa, Japan | First Autopilot pedestrian fatality |
+| [15\_REP\_DELR](scenarios/15_REP_DELR.md) | Delray Beach Semi-Trailer | ~89 km/h | Mar 1, 2019 | Delray Beach, FL | Underride collision scenario |
+| [16\_REP\_KEYL](scenarios/16_REP_KEYL.md) | Key Largo Stop Sign | ~56 km/h | Apr 25, 2019 | Key Largo, FL | Intersection stop sign failure |
+| [17\_REP\_CLVD](scenarios/17_REP_CLVD.md) | Cloverdale Fire Truck | ~113 km/h | Dec 29, 2019 | Cloverdale, IN | Stationary emergency vehicle |
+| [18\_REP\_GARD](scenarios/18_REP_GARD.md) | Gardena Red Light | ~72 km/h | Dec 29, 2019 | Gardena, CA | Nighttime red light failure |
+| [19\_REP\_AREN](scenarios/19_REP_AREN.md) | Arendal Parked Truck | ~109 km/h | May 29, 2020 | Arendal, Norway | Tunnel exit obstruction |
+| [20\_REP\_FONT](scenarios/20_REP_FONT.md) | Fontana Overturned Trailer | ~105 km/h | May 5, 2021 | Fontana, CA | Nighttime freeway obstruction |
 
 
 
