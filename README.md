@@ -2,13 +2,25 @@
 
 ## Overview
 
-This repository contains the **MetaDrive-VLM Dataset**, a comprehensive collection of reconstructed autonomous vehicle crash scenarios designed to evaluate Vision-Language Model (VLM) decision-making in safety-critical driving situations. The dataset consists of 20 base scenarios sourced from real-world dashcam footage and crash reports, expanded to ~100 instances through systematic environmental variations.
+**Meta-VLM** is a systematic framework for evaluating the role of metadata in Vision-Language Model (VLM)-based autonomous driving decisions. VLMs offer promising advances for AV decision-making through enhanced semantic reasoning, yet their deployment in safety-critical scenarios remains unexplored due to the absence of datasets combining real crash scenarios with comprehensive metadata. Meta-VLM addresses this gap by reconstructing 20 real-world crash scenarios from two complementary sources — dashcam footage and documented crash reports — within the CARLA simulator, generating synchronized multimodal metadata including semantic segmentation, depth maps, vehicle kinematics, and environmental conditions.
+
+### Pipeline
+
+The figure below illustrates the Meta-VLM pipeline, which transforms real dashcam videos and crash reports into high-fidelity CARLA simulations, extracts synchronized multimodal metadata, and evaluates three architecturally diverse VLMs (NVILA-Lite-8B, MoE-LLaVA, and Qwen2.5-VL) across ~12,000 decision instances using hierarchical metadata ablation. VLM outputs are compared against expert ground truth, CARLA autopilot responses, and observed crash behaviors.
+
+![Meta-VLM Framework Overview](assets/FrameworkIROS.png)
+
+Our results reveal that VLMs achieve **68.3% mean agreement** with expert decisions, surpassing traditional autopilot systems (59.8%) by 8.5 percentage points. Weather metadata emerges as the dominant factor across all three architectures, providing a **9.7% relative improvement** over vision-only baselines, while an optimal minimal subset combining ego-vehicle state and weather information captures **92.9% of full metadata performance** with 43% reduced computational overhead.
+
+### Dataset
+
+The dataset comprises 20 base scenarios reconstructed from documented AV failures, expanded to ~100 total instances through systematic environmental variations (weather and time of day). Each scenario includes synchronized RGB imagery, semantic segmentation, depth maps, ego-vehicle kinematics, and environmental metadata.
 
 **Key Statistics:**
 - **20 Base Scenarios**: 10 from dashcam videos + 10 from crash reports
-- **~100 Total Instances**: Environmental variations (weather, time, traffic)
-- **12,000+ Evaluations**: Across 5 metadata configurations
-- **High-Fidelity Reconstruction**: CARLA simulator with precise parameter matching
+- **~100 Total Instances**: Expanded through weather and lighting variations
+- **~12,000 Evaluations**: Across 5 metadata configurations and 3 VLM architectures
+- **High-Fidelity Reconstruction**: CARLA simulator with precise speed, trajectory, and geometry matching
 
 ## Table of Contents
 
@@ -70,14 +82,8 @@ Each base scenario can be augmented with environmental variations:
 - `CLEAR`: No precipitation, good visibility (>10km)
 - `RAIN`: Light to moderate rainfall, wet roads
 - `FOG`: Reduced visibility (1-5km)
-- `SNOW`: Snow coverage, icy roads (where applicable)
 
 **Time of Day:**
-- `DAY`: Full daylight (10:00-16:00)
-- `TWILIGHT`: Dawn/dusk (6:00-8:00 or 18:00-20:00)
-- `NIGHT`: Low light conditions (22:00-4:00)
-
-**Traffic Density:**
-- `SPARSE`: <5 vehicles in scene
-- `MODERATE`: 5-15 vehicles in scene
-- `DENSE`: >15 vehicles in scene
+- `NOON`: Full daylight
+- `TWILIGHT`: Dawn/dusk conditions
+- `NIGHT`: Low light conditions
