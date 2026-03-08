@@ -40,9 +40,13 @@ A Tesla Model X on Autopilot was involved in a high-speed collision on a highway
 |:---:|:---:|:---:|
 | ![](../assets/screenshots/09_VID_CRASH_Noon_Clear.png) | ![](../assets/screenshots/09_VID_CRASH_Noon_Rain.png) | ![](../assets/screenshots/09_VID_CRASH_Noon_Fog.png) |
 
-| Twilight — Clear | Twilight — Fog | Night — Clear | Night — Rain | Night — Fog |
-|:---:|:---:|:---:|:---:|:---:|
-| ![](../assets/screenshots/09_VID_CRASH_Twilight_Clear.png) | ![](../assets/screenshots/09_VID_CRASH_Twilight_Fog.png) | ![](../assets/screenshots/09_VID_CRASH_Night_Clear.png) | ![](../assets/screenshots/09_VID_CRASH_Night_Rain.png) | ![](../assets/screenshots/09_VID_CRASH_Night_Fog.png) |
+| Twilight — Clear | Twilight — Rain | Twilight — Fog |
+|:---:|:---:|:---:|
+| ![](../assets/screenshots/09_VID_CRASH_Twilight_Clear.png) | ![](../assets/screenshots/09_VID_CRASH_Noon_Rain.png) | ![](../assets/screenshots/09_VID_CRASH_Twilight_Fog.png) |
+
+| Night — Clear | Night — Rain | Night — Fog |
+|:---:|:---:|:---:|
+| ![](../assets/screenshots/09_VID_CRASH_Night_Clear.png) | ![](../assets/screenshots/09_VID_CRASH_Night_Rain.png) | ![](../assets/screenshots/09_VID_CRASH_Night_Fog.png) |
 
 ---
 

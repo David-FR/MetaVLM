@@ -38,9 +38,13 @@ A Tesla Model 3 on Autopilot rear-ended a parked fire truck on an interstate hig
 |:---:|:---:|:---:|
 | ![](../assets/screenshots/17_REP_CLVD_Noon_Clear.png) | ![](../assets/screenshots/17_REP_CLVD_Noon_Rain.png) | ![](../assets/screenshots/17_REP_CLVD_Noon_Fog.png) |
 
-| Twilight — Clear | Twilight — Fog | Night — Clear | Night — Rain | Night — Fog |
-|:---:|:---:|:---:|:---:|:---:|
-| ![](../assets/screenshots/17_REP_CLVD_Twilight_Clear.png) | ![](../assets/screenshots/17_REP_CLVD_Twilight_Fog.png) | ![](../assets/screenshots/17_REP_CLVD_Night_Clear.png) | ![](../assets/screenshots/17_REP_CLVD_Night_Rain.png) | ![](../assets/screenshots/17_REP_CLVD_Night_Fog.png) |
+| Twilight — Clear | Twilight — Rain | Twilight — Fog |
+|:---:|:---:|:---:|
+| ![](../assets/screenshots/17_REP_CLVD_Twilight_Clear.png) | ![](../assets/screenshots/17_REP_CLVD_Noon_Rain.png) | ![](../assets/screenshots/17_REP_CLVD_Twilight_Fog.png) |
+
+| Night — Clear | Night — Rain | Night — Fog |
+|:---:|:---:|:---:|
+| ![](../assets/screenshots/17_REP_CLVD_Night_Clear.png) | ![](../assets/screenshots/17_REP_CLVD_Night_Rain.png) | ![](../assets/screenshots/17_REP_CLVD_Night_Fog.png) |
 
 ---
 

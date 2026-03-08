@@ -38,9 +38,13 @@ A Tesla Model X on Autopilot drifted into a concrete highway divider at a carpoo
 |:---:|:---:|:---:|
 | ![](../assets/screenshots/13_REP_MTV_Noon_Clear.png) | ![](../assets/screenshots/13_REP_MTV_Noon_Rain.png) | ![](../assets/screenshots/13_REP_MTV_Noon_Fog.png) |
 
-| Sunset — Clear | Sunset — Fog | Night — Clear | Night — Rain | Night — Fog |
-|:---:|:---:|:---:|:---:|:---:|
-| ![](../assets/screenshots/13_REP_MTV_Sunset_Clear.png) | ![](../assets/screenshots/13_REP_MTV_Sunset_Fog.png) | ![](../assets/screenshots/13_REP_MTV_Night_Clear.png) | ![](../assets/screenshots/13_REP_MTV_Night_Rain.png) | ![](../assets/screenshots/13_REP_MTV_Night_Fog.png) |
+| Sunset — Clear | Sunset — Rain | Sunset — Fog |
+|:---:|:---:|:---:|
+| ![](../assets/screenshots/13_REP_MTV_Sunset_Clear.png) | ![](../assets/screenshots/13_REP_MTV_Noon_Rain.png) | ![](../assets/screenshots/13_REP_MTV_Sunset_Fog.png) |
+
+| Night — Clear | Night — Rain | Night — Fog |
+|:---:|:---:|:---:|
+| ![](../assets/screenshots/13_REP_MTV_Night_Clear.png) | ![](../assets/screenshots/13_REP_MTV_Night_Rain.png) | ![](../assets/screenshots/13_REP_MTV_Night_Fog.png) |
 
 ---
 

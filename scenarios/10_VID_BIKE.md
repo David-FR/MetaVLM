@@ -40,9 +40,13 @@ A self-driving vehicle on Autopilot struck a pedestrian crossing the highway at 
 |:---:|:---:|:---:|
 | ![](../assets/screenshots/10_VID_BIKE_Noon_Clear.png) | ![](../assets/screenshots/10_VID_BIKE_Noon_Rain.png) | ![](../assets/screenshots/10_VID_BIKE_Noon_Fog.png) |
 
-| Twilight — Clear | Twilight — Fog | Night — Clear | Night — Rain | Night — Fog |
-|:---:|:---:|:---:|:---:|:---:|
-| ![](../assets/screenshots/10_VID_BIKE_Twilight_Clear.png) | ![](../assets/screenshots/10_VID_BIKE_Twilight_Fog.png) | ![](../assets/screenshots/10_VID_BIKE_Night_Clear.png) | ![](../assets/screenshots/10_VID_BIKE_Night_Rain.png) | ![](../assets/screenshots/10_VID_BIKE_Night_Fog.png) |
+| Twilight — Clear | Twilight — Rain | Twilight — Fog |
+|:---:|:---:|:---:|
+| ![](../assets/screenshots/10_VID_BIKE_Twilight_Clear.png) | ![](../assets/screenshots/10_VID_BIKE_Noon_Rain.png) | ![](../assets/screenshots/10_VID_BIKE_Twilight_Fog.png) |
+
+| Night — Clear | Night — Rain | Night — Fog |
+|:---:|:---:|:---:|
+| ![](../assets/screenshots/10_VID_BIKE_Night_Clear.png) | ![](../assets/screenshots/10_VID_BIKE_Night_Rain.png) | ![](../assets/screenshots/10_VID_BIKE_Night_Fog.png) |
 
 ---
 

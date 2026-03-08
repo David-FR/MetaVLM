@@ -38,9 +38,13 @@ A Tesla Model S on Autopilot struck a partially obstructing parked tractor-trail
 |:---:|:---:|:---:|
 | ![](../assets/screenshots/19_REP_AREN_Noon_Clear.png) | ![](../assets/screenshots/19_REP_AREN_Noon_Rain.png) | ![](../assets/screenshots/19_REP_AREN_Noon_Fog.png) |
 
-| Twilight — Clear | Twilight — Fog | Night — Clear | Night — Rain | Night — Fog |
-|:---:|:---:|:---:|:---:|:---:|
-| ![](../assets/screenshots/19_REP_AREN_Twilight_Clear.png) | ![](../assets/screenshots/19_REP_AREN_Twilight_Fog.png) | ![](../assets/screenshots/19_REP_AREN_Night_Clear.png) | ![](../assets/screenshots/19_REP_AREN_Night_Rain.png) | ![](../assets/screenshots/19_REP_AREN_Night_Fog.png) |
+| Twilight — Clear | Twilight — Rain | Twilight — Fog |
+|:---:|:---:|:---:|
+| ![](../assets/screenshots/19_REP_AREN_Twilight_Clear.png) | ![](../assets/screenshots/19_REP_AREN_Noon_Rain.png) | ![](../assets/screenshots/19_REP_AREN_Twilight_Fog.png) |
+
+| Night — Clear | Night — Rain | Night — Fog |
+|:---:|:---:|:---:|
+| ![](../assets/screenshots/19_REP_AREN_Night_Clear.png) | ![](../assets/screenshots/19_REP_AREN_Night_Rain.png) | ![](../assets/screenshots/19_REP_AREN_Night_Fog.png) |
 
 ---
 

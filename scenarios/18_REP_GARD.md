@@ -38,9 +38,13 @@ A Tesla Model S failed to stop for a red light after exiting a freeway at night,
 |:---:|:---:|:---:|
 | ![](../assets/screenshots/18_REP_GARD_Noon_Clear.png) | ![](../assets/screenshots/18_REP_GARD_Noon_Rain.png) | ![](../assets/screenshots/18_REP_GARD_Noon_Fog.png) |
 
-| Twilight — Clear | Twilight — Fog | Night — Clear | Night — Rain | Night — Fog |
-|:---:|:---:|:---:|:---:|:---:|
-| ![](../assets/screenshots/18_REP_GARD_Twilight_Clear.png) | ![](../assets/screenshots/18_REP_GARD_Twilight_Fog.png) | ![](../assets/screenshots/18_REP_GARD_Night_Clear.png) | ![](../assets/screenshots/18_REP_GARD_Night_Rain.png) | ![](../assets/screenshots/18_REP_GARD_Night_Fog.png) |
+| Twilight — Clear | Twilight — Rain | Twilight — Fog |
+|:---:|:---:|:---:|
+| ![](../assets/screenshots/18_REP_GARD_Twilight_Clear.png) | ![](../assets/screenshots/18_REP_GARD_Noon_Rain.png) | ![](../assets/screenshots/18_REP_GARD_Twilight_Fog.png) |
+
+| Night — Clear | Night — Rain | Night — Fog |
+|:---:|:---:|:---:|
+| ![](../assets/screenshots/18_REP_GARD_Night_Clear.png) | ![](../assets/screenshots/18_REP_GARD_Night_Rain.png) | ![](../assets/screenshots/18_REP_GARD_Night_Fog.png) |
 
 ---
 

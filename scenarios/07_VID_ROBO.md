@@ -40,9 +40,13 @@ A Tesla Robotaxi operating in fully autonomous mode (FSD V14.3) failed to execut
 |:---:|:---:|:---:|
 | ![](../assets/screenshots/07_VID_ROBO_Noon_Clear.png) | ![](../assets/screenshots/07_VID_ROBO_Noon_Rain.png) | ![](../assets/screenshots/07_VID_ROBO_Noon_Fog.png) |
 
-| Twilight — Clear | Twilight — Fog | Night — Clear | Night — Rain | Night — Fog |
-|:---:|:---:|:---:|:---:|:---:|
-| ![](../assets/screenshots/07_VID_ROBO_Twilight_Clear.png) | ![](../assets/screenshots/07_VID_ROBO_Twilight_Fog.png) | ![](../assets/screenshots/07_VID_ROBO_Night_Clear.png) | ![](../assets/screenshots/07_VID_ROBO_Night_Rain.png) | ![](../assets/screenshots/07_VID_ROBO_Night_Fog.png) |
+| Twilight — Clear | Twilight — Rain | Twilight — Fog |
+|:---:|:---:|:---:|
+| ![](../assets/screenshots/07_VID_ROBO_Twilight_Clear.png) | ![](../assets/screenshots/07_VID_ROBO_Noon_Rain.png) | ![](../assets/screenshots/07_VID_ROBO_Twilight_Fog.png) |
+
+| Night — Clear | Night — Rain | Night — Fog |
+|:---:|:---:|:---:|
+| ![](../assets/screenshots/07_VID_ROBO_Night_Clear.png) | ![](../assets/screenshots/07_VID_ROBO_Night_Rain.png) | ![](../assets/screenshots/07_VID_ROBO_Night_Fog.png) |
 
 ---
 
