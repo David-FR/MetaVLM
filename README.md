@@ -29,7 +29,6 @@ The dataset comprises 20 base scenarios reconstructed from documented AV failure
 - [Environmental Variations](#environmental-variations)
 - [Metadata Schema](#metadata-schema)
 - [Getting Started](#getting-started)
-- [Citation](#citation)
 
 
 
@@ -74,7 +73,7 @@ The dataset comprises 20 base scenarios representing documented AV failures:
 
 ## Environmental Variations
 
-Each base scenario can be augmented with environmental variations:
+Each base scenario can be augmented with environmental variations. CARLA screenshots are available for all video-sourced scenarios (01–10) and all report-sourced scenarios (11–20).
 
 ### Variation Dimensions
 
