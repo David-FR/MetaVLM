@@ -16,7 +16,6 @@
 
 ![Simulation GIF](../assets/gifs/04_VID_LV.gif)
 
-> *Simulation GIF to be generated from `Videos/04_VID_LV/AVC-LV.mp4`.*
 
 A Tesla Model 3 on Autopilot departed its lane on Highway US-101 at highway speed. The vehicle drifted from its lane without correction, demonstrating a failure in lane-keeping assistance. This incident was documented as part of the WSJ investigation into Tesla Autopilot lane-keeping failures.
 
@@ -38,7 +37,7 @@ A Tesla Model 3 on Autopilot departed its lane on Highway US-101 at highway spee
 
 ### Environmental Variations
 
-> *CARLA simulation screenshots coming soon.*
+![CARLA Screenshot](../assets/screenshots/04_VID_LV_CARLA.png)
 
 ---
 

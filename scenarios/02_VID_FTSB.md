@@ -16,7 +16,6 @@
 
 ![Simulation GIF](../assets/gifs/02_VID_FTSB.gif)
 
-> *Simulation GIF to be generated from `Videos/02_VID_FTSB/AV-FTSB.mp4`.*
 
 A Tesla Model Y on Autopilot rear-ended another vehicle at highway speed on Interstate I-5. The system failed to detect or respond to the slower vehicle ahead in time to avoid the collision. This incident was documented as part of the WSJ investigation into Tesla Autopilot crash patterns.
 
@@ -38,7 +37,7 @@ A Tesla Model Y on Autopilot rear-ended another vehicle at highway speed on Inte
 
 ### Environmental Variations
 
-> *CARLA simulation screenshots coming soon.*
+![CARLA Screenshot](../assets/screenshots/02_VID_FTSB_CARLA.png)
 
 ---
 

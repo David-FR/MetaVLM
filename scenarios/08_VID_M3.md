@@ -17,7 +17,6 @@
 
 ![Simulation GIF](../assets/gifs/08_VID_M3.gif)
 
-> *Simulation GIF to be generated from `Videos/08_VID_M3/08_VID_M3.mp4`.*
 
 A Tesla Model 3 operating under FSD v13.2.8 abruptly swerved left on a rural highway and crashed into a tree. The dashcam footage clearly shows the unexpected steering input with no apparent cause. The incident prompted scrutiny of FSD v13.2.8's behavior on rural roads with unclear lane markings.
 

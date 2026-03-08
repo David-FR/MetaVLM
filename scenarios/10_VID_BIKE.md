@@ -16,7 +16,6 @@
 
 ![Simulation GIF](../assets/gifs/10_VID_BIKE.gif)
 
-> *Simulation GIF to be generated from `Videos/10_VID_BIKE/10_VID_BIKE.mp4`.*
 
 A self-driving vehicle on Autopilot struck a pedestrian crossing the highway at night. The AV system failed to detect the pedestrian in time to brake or avoid the collision under low-light conditions. This scenario reconstructs the dynamics of nighttime pedestrian detection failure in autonomous vehicles.
 

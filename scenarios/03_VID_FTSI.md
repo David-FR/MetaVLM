@@ -16,7 +16,6 @@
 
 ![Simulation GIF](../assets/gifs/03_VID_FTSB.gif)
 
-> *Simulation GIF to be generated from `Videos/03_VID_FTSI/AVC-FTSI.mp4`.*
 
 A Tesla Model S on Autopilot failed to stop at a red light at an urban intersection. The vehicle proceeded through the signal at low speed, demonstrating a failure of the traffic light detection and response system. This incident was documented as part of the WSJ investigation into Tesla Autopilot failures at intersections.
 
@@ -38,7 +37,7 @@ A Tesla Model S on Autopilot failed to stop at a red light at an urban intersect
 
 ### Environmental Variations
 
-> *CARLA simulation screenshots coming soon.*
+![CARLA Screenshot](../assets/screenshots/03_VID_FTSI_CARLA.png)
 
 ---
 

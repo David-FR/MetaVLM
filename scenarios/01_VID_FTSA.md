@@ -16,7 +16,6 @@
 
 ![Simulation GIF](../assets/gifs/01_VID_FTSA.gif)
 
-> *Simulation GIF to be generated from `Videos/01_VID_FTSA/AVC-FTSA.mp4`.*
 
 A Tesla Model 3 operating under FSD was involved in a secondary collision on Highway CA-101. The vehicle failed to respond to a stopped or slowing vehicle ahead, resulting in an impact. This incident was documented as part of the WSJ investigation into Tesla Autopilot and FSD crash patterns.
 
@@ -38,7 +37,7 @@ A Tesla Model 3 operating under FSD was involved in a secondary collision on Hig
 
 ### Environmental Variations
 
-> *CARLA simulation screenshots coming soon.*
+![CARLA Screenshot](../assets/screenshots/01_VID_FTSA_CARLA.png)
 
 ---
 

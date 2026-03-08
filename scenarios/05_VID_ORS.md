@@ -16,7 +16,6 @@
 
 ![Simulation GIF](../assets/gifs/05_AVC_ORS.gif)
 
-> *Simulation GIF to be generated from `Videos/05_VID_ORS/AVC-ORS.mp4`.*
 
 A Tesla Model Y on Autopilot departed the road surface toward an off-road hazard. The vehicle failed to maintain its lane and veered off the road edge. This incident was documented as part of the WSJ investigation into Tesla Autopilot road departure failures.
 
@@ -38,7 +37,7 @@ A Tesla Model Y on Autopilot departed the road surface toward an off-road hazard
 
 ### Environmental Variations
 
-> *CARLA simulation screenshots coming soon.*
+![CARLA Screenshot](../assets/screenshots/05_VID_ORS_CARLA.png)
 
 ---
 

@@ -16,7 +16,6 @@
 
 ![Simulation GIF](../assets/gifs/07_VID_ROBO.gif)
 
-> *Simulation GIF to be generated from `Videos/07_VID_ROBO/07_VID_ROBO.mp4`.*
 
 A Tesla Robotaxi operating in fully autonomous mode (FSD V14.3) failed to execute a left turn correctly during its first day of public operation, resulting in a significant driving error. The incident was captured by a passenger and shared on Reddit, highlighting unexpected behavior in the Robotaxi's first-day deployment.
 

@@ -16,7 +16,6 @@
 
 ![Simulation GIF](../assets/gifs/09_VID_CRASH.gif)
 
-> *Simulation GIF to be generated from `Videos/09_VID_CRASH/09_VID_CRASH.mp4`.*
 
 A Tesla Model X on Autopilot was involved in a high-speed collision on a highway at night. The vehicle failed to detect and respond to an obstacle or vehicle ahead under low-light conditions, resulting in a crash. The incident was captured in news archive footage.
 

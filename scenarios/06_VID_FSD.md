@@ -17,7 +17,6 @@
 
 ![Simulation GIF](../assets/gifs/06_VID_FSD.gif)
 
-> *Simulation GIF to be generated from `Videos/06_VID_FSD/VID_FSD_06.mp4`.*
 
 A Tesla Model Y LR operating under FSD Supervised v13.2.8 attempted to take an incorrect highway exit, executing an unexpected and unsafe lane maneuver. The driver-recorded footage was shared on Reddit as an example of FSD supervised mode making an erroneous exit decision at highway speed.
 
