@@ -15,7 +15,7 @@
 | Video Duration | 13 sec @ 30 fps (1920×1080) |
 | CARLA Map | Town04 |
 
-![Simulation GIF](assets/gifs/06_VID_FSD.gif)
+![Simulation GIF](../assets/gifs/06_VID_FSD.gif)
 
 > *Simulation GIF to be generated from `Videos/06_VID_FSD/VID_FSD_06.mp4`.*
 

@@ -14,7 +14,7 @@
 | Video Duration | 6 sec @ 25 fps (1920×1080) |
 | CARLA Map | Town02 |
 
-![Simulation GIF](assets/gifs/10_VID_BIKE.gif)
+![Simulation GIF](../assets/gifs/10_VID_BIKE.gif)
 
 > *Simulation GIF to be generated from `Videos/10_VID_BIKE/10_VID_BIKE.mp4`.*
 

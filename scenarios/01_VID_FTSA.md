@@ -14,7 +14,7 @@
 | Video Duration | 6 sec @ 30 fps (992×720) |
 | CARLA Map | TBD |
 
-![Simulation GIF](assets/gifs/01_VID_FTSA.gif)
+![Simulation GIF](../assets/gifs/01_VID_FTSA.gif)
 
 > *Simulation GIF to be generated from `Videos/01_VID_FTSA/AVC-FTSA.mp4`.*
 

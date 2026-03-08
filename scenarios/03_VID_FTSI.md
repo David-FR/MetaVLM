@@ -14,7 +14,7 @@
 | Video Duration | 4 sec @ 30 fps (1920×1080) |
 | CARLA Map | TBD |
 
-![Simulation GIF](assets/gifs/03_VID_FTSI.gif)
+![Simulation GIF](../assets/gifs/03_VID_FTSB.gif)
 
 > *Simulation GIF to be generated from `Videos/03_VID_FTSI/AVC-FTSI.mp4`.*
 

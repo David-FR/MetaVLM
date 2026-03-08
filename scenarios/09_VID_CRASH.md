@@ -14,7 +14,7 @@
 | Video Duration | 8 sec @ 30 fps (1920×1080) |
 | CARLA Map | Town04 |
 
-![Simulation GIF](assets/gifs/09_VID_CRASH.gif)
+![Simulation GIF](../assets/gifs/09_VID_CRASH.gif)
 
 > *Simulation GIF to be generated from `Videos/09_VID_CRASH/09_VID_CRASH.mp4`.*
 

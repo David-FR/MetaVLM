@@ -15,7 +15,7 @@
 | Video Duration | 37 sec @ 30 fps (1668×1080) |
 | CARLA Map | Town07 |
 
-![Simulation GIF](assets/gifs/08_VID_M3.gif)
+![Simulation GIF](../assets/gifs/08_VID_M3.gif)
 
 > *Simulation GIF to be generated from `Videos/08_VID_M3/08_VID_M3.mp4`.*
 

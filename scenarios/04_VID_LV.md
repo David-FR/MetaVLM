@@ -14,7 +14,7 @@
 | Video Duration | 6 sec @ 30 fps (1920×1080) |
 | CARLA Map | TBD |
 
-![Simulation GIF](assets/gifs/04_VID_LV.gif)
+![Simulation GIF](../assets/gifs/04_VID_LV.gif)
 
 > *Simulation GIF to be generated from `Videos/04_VID_LV/AVC-LV.mp4`.*
 
