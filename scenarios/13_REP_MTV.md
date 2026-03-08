@@ -20,7 +20,24 @@ A Tesla Model X on Autopilot drifted into a concrete highway divider at a carpoo
 
 **Notes:** NHTSA and NTSB investigations initiated; driver was Apple engineer Walter Huang.
 
-**Source:** [Reuters — Tesla says crashed vehicle had been on Autopilot](https://www.reuters.com/article/us-tesla-crash/tesla-says-crashed-vehicle-had-been-on-autopilot-prior-to-accident-idUSKBN1H7023/)
+**Sources:**
+- [Reuters — Tesla says crashed vehicle had been on Autopilot prior to accident](https://www.reuters.com/article/us-tesla-crash/tesla-says-crashed-vehicle-had-been-on-autopilot-prior-to-accident-idUSKBN1H7023)
+- [Tesla Blog — An Update on Last Week's Accident](https://www.tesla.com/blog/update-last-week%E2%80%99s-accident)
+- [Ars Technica — Tesla says Autopilot was active during fatal crash in Mountain View](https://arstechnica.com/cars/2018/03/tesla-says-autopilot-was-active-during-fatal-crash-in-mountain-view/)
+- [Ars Technica — Growing evidence Tesla's Autopilot handles lane dividers poorly](https://arstechnica.com/cars/2018/04/theres-growing-evidence-teslas-autopilot-handles-lane-dividers-poorly/)
+- [Electrek — Tesla Autopilot confuses markings toward barrier](https://electrek.co/2018/04/03/tesla-autopilot-crash-barrier-markings-fatal-model-x-accident/)
+- [ABC7 SF — Victim had complained about auto-pilot (I-TEAM exclusive)](http://abc7news.com/automotive/i-team-exclusive-victim-who-died-in-tesla-crash-had-complained-about-auto-pilot/3275600/)
+- [Washington Post — NTSB 'unhappy' with Tesla release of investigative information](https://www.washingtonpost.com/news/dr-gridlock/wp/2018/04/01/ntsb-unhappy-with-tesla-release-of-investigative-information-in-fatal-crash/)
+- [BBC — Tesla rebuked by death crash investigators](https://www.bbc.com/news/technology-43617752)
+- [NTSB — Preliminary Report HWY18FH011 (PDF)](https://www.ntsb.gov/investigations/AccidentReports/Reports/HWY18FH011-preliminary.pdf)
+- [NTSB — Safety Recommendation Report HSR1901 on crash attenuators (PDF)](https://www.ntsb.gov/investigations/AccidentReports/Reports/HSR1901.pdf)
+- [NTSB — Press Release: Tesla Crash Investigation Yields 9 Safety Recommendations](https://www.ntsb.gov/news/press-releases/Pages/NR20200225.aspx)
+- [NTSB — Final Report Abstract HWY18FH011 (PDF)](https://www.ntsb.gov/news/events/Documents/2020-HWY18FH011-BMG-abstract.pdf)
+- [NTSB — Safety Recommendation H-17-041](https://www.ntsb.gov/_layouts/ntsb.recsearch/Recommendation.aspx?Rec=H-17-041)
+- [NTSB — Safety Recommendation H-17-042](https://www.ntsb.gov/_layouts/ntsb.recsearch/Recommendation.aspx?Rec=H-17-042)
+- [NTSB — Safety Recommendation Press Release (Sept 2019)](https://www.ntsb.gov/news/press-releases/Pages/NR20190909.aspx)
+- [CNBC — Tesla settles lawsuit over Autopilot crash that killed Apple engineer (2024)](https://www.cnbc.com/2024/04/08/tesla-settles-wrongful-death-lawsuit-over-fatal-2018-autopilot-crash.html)
+- [ABC7 Chicago — Tesla settles with Apple engineer Walter Huang's family](https://abc7chicago.com/tesla-settles-with-apple-engineer-walter-huangs-family-who-said-autopilot-caused-fatal-mountain-view-crash/14635870/)
 
 ---
 

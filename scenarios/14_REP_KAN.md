@@ -20,7 +20,12 @@ A Tesla Model X on Autopilot accelerated following a lane change and struck a va
 
 **Notes:** First reported Autopilot pedestrian fatality; driver had fallen asleep.
 
-**Source:** [Forbes — Lawsuit against Tesla for Autopilot-engaged pedestrian death](https://www.forbes.com/sites/lanceeliot/2020/05/16/lawsuit-against-tesla-for-autopilot-engaged-pedestrian-death-could-disrupt-full-self-driving-progress/)
+**Sources:**
+- [Forbes — Lawsuit against Tesla for Autopilot-Engaged Pedestrian Death](https://www.forbes.com/sites/lanceeliot/2020/05/16/lawsuit-against-tesla-for-autopilot-engaged-pedestrian-death-could-disrupt-full-self-driving-progress/)
+- [Bloomberg — Tesla's Autopilot Blamed in Lawsuit for Fatal Accident in Japan](https://www.bloomberg.com/news/articles/2020-04-29/tesla-s-autopilot-blamed-in-lawsuit-for-fatal-accident-in-japan)
+- [Court Listener — Umeda v. Tesla, Inc. (Case 5:20-cv-02926)](https://www.courtlistener.com/docket/17109047/umeda-v-tesla-inc/)
+- [Court Filing — Original Complaint for Damages (PDF)](https://regmedia.co.uk/2020/04/30/tesla_complaint.pdf)
+- [Court Listener — Order Granting Dismissal for Forum Non Conveniens (PDF)](https://www.courtlistener.com/recap/gov.uscourts.cand.358803/gov.uscourts.cand.358803.34.0.pdf)
 
 ---
 

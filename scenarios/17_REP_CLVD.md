@@ -20,7 +20,14 @@ A Tesla Model 3 on Autopilot rear-ended a parked fire truck on an interstate hig
 
 **Notes:** NHTSA confirmed Autopilot use; driver filed civil lawsuit against Tesla in 2021.
 
-**Source:** [Dubois County Herald — Tesla rear-ends fire truck killing woman](https://www.duboiscountyherald.com/news/state/telsa-rear-ends-fire-truck-killing-woman/article_b1388528-30c8-5afd-aafb-5129cb77de5b.html)
+**Sources:**
+- [Indianapolis Star — One dead after vehicle hits firetruck parked on I-70](https://www.indystar.com/story/news/2019/12/29/one-dead-after-tesla-hits-parked-fire-truck-70/2771593001/)
+- [Dubois County Herald — Tesla rear-ends fire truck killing woman](https://duboiscountyherald.com/b/telsa-rear-ends-fire-truck-killing-woman)
+- [Banner Graphic — Fatal Tesla crash into fire truck was one year ago today](https://www.bannergraphic.com/story/2856765.html)
+- [Indianapolis Star — Agency to investigate fatal I-70 Tesla, firetruck wreck](https://www.indystar.com/story/news/local/transportation/2020/01/09/fatal-indiana-tesla-crash-investigated-national-highway-traffic-safety-administration/4418773002/)
+- [NHTSA — ODI Document PE 21-020 (PDF)](https://static.nhtsa.gov/odi/inv/2021/INOA-PE21020-1893.PDF)
+- [PlainSite — Monet v. Tesla (Santa Clara County, civil lawsuit)](https://www.plainsite.org/dockets/4q175ldkg/superior-court-of-california-county-of-santa-clara/derrick-monet-v-tesla-inc/)
+- [Justia — Monet v. Tesla (N.D. Cal, federal docket)](https://dockets.justia.com/docket/california/candce/5:2022cv00681/391325)
 
 ---
 

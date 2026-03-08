@@ -20,7 +20,11 @@ A Tesla Model S on Autopilot ran through a stop sign and a flashing red light at
 
 **Notes:** Driver distracted by dropped phone; confirmed Autopilot engaged at time of incident.
 
-**Source:** [New York Times — Tesla Autopilot accident](https://www.nytimes.com/2021/08/17/business/tesla-autopilot-accident.html)
+**Sources:**
+- [New York Times — 'It Happened So Fast': Inside a Fatal Tesla Autopilot Accident](https://www.nytimes.com/2021/08/17/business/tesla-autopilot-accident.html)
+- [NBC Miami — South Florida Man Wants Answers After Crash Killed Girlfriend](https://www.nbcmiami.com/news/local/man-wants-answers-after-deadly-crash/124944/)
+- [PlainSite — Benavides v. Tesla, Inc. (civil lawsuit docket)](https://www.plainsite.org/dockets/4iolsjy43/county-court-in-and-for-miamidade-county-florida/neima-benavides-pr-v-tesla-inc/)
+- [New York Times — Jury Says Tesla Was Partly to Blame for Fatal Crash (Aug 2025)](https://www.nytimes.com/2025/08/01/business/tesla-autopilot-federal-trial-verdict.html)
 
 ---
 

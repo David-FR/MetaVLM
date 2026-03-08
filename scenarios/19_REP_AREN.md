@@ -20,7 +20,11 @@ A Tesla Model S on Autopilot struck a partially obstructing parked tractor-trail
 
 **Notes:** Autopilot engaged ~4 km before accident site; no warning lights or triangle visible on truck.
 
-**Source:** [AIBN Norway — Accident investigation report 2022-06](https://havarikommisjonen.no/Vei/Avgitte-rapporter/2022-06)
+**Sources:**
+- [Accident Investigation Board Norway — Official Report 2022-06 (Norwegian)](https://havarikommisjonen.no/Vei/Avgitte-rapporter/2022-06)
+- [motor.no — Tesla på auto-styring da mann ble meid ned (Norwegian)](https://motor.no/a/188623)
+- [TU.no — Fatal accident near Arendal: Tesla's Autopilot made driver less engaged (Norwegian)](https://www.tu.no/artikler/dodsulykke-ved-arendal-teslas-autopilot-gjorde-at-foreren-var-mindre-engasjert-i-kjoreprosessen/521337)
+- [Havarikommisjonen — Ongoing investigations page](https://havarikommisjonen.no/Vei/Pagaende-undersokelser)
 
 ---
 

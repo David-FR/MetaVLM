@@ -20,7 +20,12 @@ A Tesla Model 3 with automated driving engaged struck an overturned tractor-trai
 
 **Notes:** CHP confirmed Autopilot engaged; NHTSA investigation initiated.
 
-**Source:** [CBS News LA — Tesla driver killed in big rig wreck on 210 Freeway in Fontana](https://www.cbsnews.com/losangeles/news/tesla-driver-killed-big-rig-wreck-on-210-freeway-in-fontana-good-samaritan-hurt/)
+**Sources:**
+- [CBS Los Angeles — Tesla Driver Killed, 2 Seriously Hurt In Big-Rig Wreck on 210 Freeway](https://losangeles.cbslocal.com/2021/05/05/tesla-driver-killed-big-rig-wreck-on-210-freeway-in-fontana-good-samaritan-hurt/)
+- [AP News — Officials: Tesla Autopilot probed in fatal California crash](https://apnews.com/article/california-business-technology-204e5600ec902d0bfda10feca74a9ed0)
+- [AP News — Crash, arrest draw more scrutiny of Tesla Autopilot system](https://apnews.com/article/ca-state-wire-california-arrests-business-technology-388ae97b2c5c8a7ca7ae816323e7b829)
+- [CBS Los Angeles — CHP Investigating Deadly Fontana Tesla Crash](https://losangeles.cbslocal.com/2021/05/14/chp-investigating-deadly-fontana-tesla-crash-to-see-if-self-driving-computer-played-part/)
+- [NHTSA — SGO-2021-01 ADAS Incident Reports (CSV)](https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/SGO-2021-01_Incident_Reports_ADAS.csv)
 
 ---
 

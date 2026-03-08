@@ -20,7 +20,19 @@ A Tesla Model S on Autopilot failed to brake for an 18-wheel tractor-trailer mak
 
 **Notes:** First Autopilot fatality in the US; NHTSA formal investigation opened.
 
-**Source:** [The Guardian — Tesla autopilot death: self-driving car elon musk](https://www.theguardian.com/technology/2016/jun/30/tesla-autopilot-death-self-driving-car-elon-musk)
+**Sources:**
+- [The Guardian — Tesla driver dies in first fatal crash while using autopilot mode](https://www.theguardian.com/technology/2016/jun/30/tesla-autopilot-death-self-driving-car-elon-musk)
+- [New York Times — Self-Driving Tesla Involved in Fatal Crash](https://www.nytimes.com/2016/07/01/business/self-driving-tesla-fatal-crash-investigation.html)
+- [AP News — Tesla driver killed in crash while using car's 'Autopilot'](https://apnews.com/article/ee71bd075fb948308727b4bbff7b3ad8)
+- [The Verge — Florida Highway Patrol full investigation report](https://www.theverge.com/2017/2/1/14458662/tesla-autopilot-crash-accident-florida-fatal-highway-patrol-report)
+- [NHTSA — Special Crash Investigation Report DOT HS 812 481 (PDF)](https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/812481)
+- [NHTSA — PE 16-007 Closure Report (PDF)](https://static.nhtsa.gov/odi/inv/2016/INCLA-PE16007-7876.PDF)
+- [NTSB — Accident Report HAR1702 (PDF)](https://www.ntsb.gov/investigations/AccidentReports/Reports/HAR1702.pdf)
+- [Reuters — U.S. safety agency says did not assess Tesla Autopilot effectiveness](https://www.reuters.com/article/us-tesla-autopilot/u-s-safety-agency-says-did-not-assess-tesla-autopilot-effectiveness-idUSKBN1I334A)
+- [The Verge — Fatal Tesla Autopilot accident investigation ends with no recall](https://www.theverge.com/2017/1/19/14323990/tesla-autopilot-fatal-accident-nhtsa-investigation-ends)
+- [Tesla — 'A Tragic Loss' press release](https://www.teslamotors.com/blog/tragic-loss)
+- [MIT Technology Review — Tesla's Dubious Claims About Autopilot Safety Record](https://www.technologyreview.com/s/601849/teslas-dubious-claims-about-autopilots-safety-record/)
+- [Reuters — DVD player found in Tesla car in fatal May crash](https://www.reuters.com/article/us-tesla-autopilot-dvd-idUSKCN0ZH5BW)
 
 ---
 
