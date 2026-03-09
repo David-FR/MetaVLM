@@ -12,7 +12,7 @@
 | Original Weather | Clear |
 | Original Lighting | Daylight |
 | Video Duration | 6 sec @ 30 fps (992×720) |
-| CARLA Map | TBD |
+| CARLA Map | Town04 |
 
 ![Simulation GIF](../assets/gifs/01_VID_FTSA.gif)
 
@@ -29,11 +29,9 @@ A Tesla Model 3 operating under FSD was involved in a secondary collision on Hig
 
 | Parameter | Value |
 |-----------|-------|
-| Map | TBD |
-| Origin | TBD |
-| Destination | TBD |
-
-> *CARLA simulation coordinates to be added.*
+| Map | Town04 |
+| Origin | x=4.48, y=184, z=1.9 |
+| Destination | x=5, y=-143, z=2 |
 
 ### Environmental Variations
 

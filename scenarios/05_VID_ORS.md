@@ -12,7 +12,7 @@
 | Original Weather | Clear |
 | Original Lighting | Daylight |
 | Video Duration | 6 sec @ 30 fps (1920×1080) |
-| CARLA Map | TBD |
+| CARLA Map | Town04 |
 
 ![Simulation GIF](../assets/gifs/05_AVC_ORS.gif)
 
@@ -29,11 +29,9 @@ A Tesla Model Y on Autopilot departed the road surface toward an off-road hazard
 
 | Parameter | Value |
 |-----------|-------|
-| Map | TBD |
-| Origin | TBD |
-| Destination | TBD |
-
-> *CARLA simulation coordinates to be added.*
+| Map | Town04 |
+| Origin | x=298, y=85, z=0.1 |
+| Destination | x=296.78, y=131.63, z=4.96 |
 
 ### Environmental Variations
 

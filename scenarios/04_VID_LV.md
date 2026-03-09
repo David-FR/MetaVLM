@@ -12,7 +12,7 @@
 | Original Weather | Clear |
 | Original Lighting | Daylight |
 | Video Duration | 6 sec @ 30 fps (1920×1080) |
-| CARLA Map | TBD |
+| CARLA Map | Town07 |
 
 ![Simulation GIF](../assets/gifs/04_VID_LV.gif)
 
@@ -29,11 +29,9 @@ A Tesla Model 3 on Autopilot departed its lane on Highway US-101 at highway spee
 
 | Parameter | Value |
 |-----------|-------|
-| Map | TBD |
-| Origin | TBD |
-| Destination | TBD |
-
-> *CARLA simulation coordinates to be added.*
+| Map | Town07 |
+| Origin | x=11.5, y=-238, z=0.76 |
+| Destination | x=40.78, y=-203, z=5 |
 
 ### Environmental Variations
 

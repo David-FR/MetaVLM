@@ -12,7 +12,7 @@
 | Original Weather | Clear |
 | Original Lighting | Daylight |
 | Video Duration | 4 sec @ 30 fps (1920×1080) |
-| CARLA Map | TBD |
+| CARLA Map | Town04 |
 
 ![Simulation GIF](../assets/gifs/03_VID_FTSB.gif)
 
@@ -29,11 +29,9 @@ A Tesla Model S on Autopilot failed to stop at a red light at an urban intersect
 
 | Parameter | Value |
 |-----------|-------|
-| Map | TBD |
-| Origin | TBD |
-| Destination | TBD |
-
-> *CARLA simulation coordinates to be added.*
+| Map | Town04 |
+| Origin | x=204, y=-227, z=0.65 |
+| Destination | x=204, y=-261, z=0.65 |
 
 ### Environmental Variations
 

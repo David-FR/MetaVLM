@@ -12,7 +12,7 @@
 | Original Weather | Clear |
 | Original Lighting | Daylight |
 | Video Duration | 2 sec @ 30 fps (985×720) |
-| CARLA Map | TBD |
+| CARLA Map | Town04 |
 
 ![Simulation GIF](../assets/gifs/02_VID_FTSB.gif)
 
@@ -29,11 +29,9 @@ A Tesla Model Y on Autopilot rear-ended another vehicle at highway speed on Inte
 
 | Parameter | Value |
 |-----------|-------|
-| Map | TBD |
-| Origin | TBD |
-| Destination | TBD |
-
-> *CARLA simulation coordinates to be added.*
+| Map | Town04 |
+| Origin | x=9, y=30, z=2 |
+| Destination | x=5, y=-143, z=2 |
 
 ### Environmental Variations
 
