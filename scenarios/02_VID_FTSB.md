@@ -35,7 +35,17 @@ A Tesla Model Y on Autopilot rear-ended another vehicle at highway speed on Inte
 
 ### Environmental Variations
 
-![CARLA Screenshot](../assets/screenshots/02_VID_FTSB_CARLA.png)
+| Noon — Clear | Noon — Rain | Noon — Fog |
+|:---:|:---:|:---:|
+| ![](../assets/screenshots/02_VID_FSB_Noon_Clear.png) | ![](../assets/screenshots/02_VID_FSB_Noon_Rain.png) | ![](../assets/screenshots/02_VID_FSB_Noon_Fog.png) |
+
+| Twilight — Clear | Twilight — Rain | Twilight — Fog |
+|:---:|:---:|:---:|
+| ![](../assets/screenshots/02_VID_FSB_Twilight_Clear.png) | ![](../assets/screenshots/02_VID_FSB_Noon_Rain.png) | ![](../assets/screenshots/02_VID_FSB_Twilight_Fog.png) |
+
+| Night — Clear | Night — Rain | Night — Fog |
+|:---:|:---:|:---:|
+| ![](../assets/screenshots/02_VID_FSB_Night_Clear.png) | ![](../assets/screenshots/02_VID_FSB_Night_Rain.png) | ![](../assets/screenshots/02_VID_FSB_Night_Fog.png) |
 
 ---
 

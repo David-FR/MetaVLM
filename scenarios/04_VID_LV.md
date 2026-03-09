@@ -35,7 +35,17 @@ A Tesla Model 3 on Autopilot departed its lane on Highway US-101 at highway spee
 
 ### Environmental Variations
 
-![CARLA Screenshot](../assets/screenshots/04_VID_LV_CARLA.png)
+| Noon — Clear | Noon — Rain | Noon — Fog |
+|:---:|:---:|:---:|
+| ![](../assets/screenshots/04_VID_LV_Noon_Clear.png) | ![](../assets/screenshots/04_VID_LV_Noon_Rain.png) | ![](../assets/screenshots/04_VID_LV_Noon_Fog.png) |
+
+| Twilight — Clear | Twilight — Rain | Twilight — Fog |
+|:---:|:---:|:---:|
+| ![](../assets/screenshots/04_VID_LV_Twilight_Clear.png) | ![](../assets/screenshots/04_VID_LV_Noon_Rain.png) | ![](../assets/screenshots/04_VID_LV_Twilight_Fog.png) |
+
+| Night — Clear | Night — Rain | Night — Fog |
+|:---:|:---:|:---:|
+| ![](../assets/screenshots/04_VID_LV_Night_Clear.png) | ![](../assets/screenshots/04_VID_LV_Noon_Rain.png) | ![](../assets/screenshots/04_VID_LV_Night_Fog.png) |
 
 ---
 

@@ -29,13 +29,23 @@ A Tesla Model Y on Autopilot departed the road surface toward an off-road hazard
 
 | Parameter | Value |
 |-----------|-------|
-| Map | Town04 |
+| Map | Town07 |
 | Origin | x=298, y=85, z=0.1 |
 | Destination | x=296.78, y=131.63, z=4.96 |
 
 ### Environmental Variations
 
-![CARLA Screenshot](../assets/screenshots/05_VID_ORS_CARLA.png)
+| Noon — Clear | Noon — Rain | Noon — Fog |
+|:---:|:---:|:---:|
+| ![](../assets/screenshots/05_VID_ORS_Noon_Clear.png) | ![](../assets/screenshots/05_VID_ORS_Noon_Rain.png) | ![](../assets/screenshots/05_VID_ORS_Noon_Fog.png) |
+
+| Twilight — Clear | Twilight — Rain | Twilight — Fog |
+|:---:|:---:|:---:|
+| ![](../assets/screenshots/05_VID_ORS_Twilight_Clear.png) | ![](../assets/screenshots/05_VID_ORS_Noon_Rain.png) | ![](../assets/screenshots/05_VID_ORS_Twilight_Fog.png) |
+
+| Night — Clear | Night — Rain | Night — Fog |
+|:---:|:---:|:---:|
+| ![](../assets/screenshots/05_VID_ORS_Night_Clear.png) | ![](../assets/screenshots/05_VID_ORS_Night_Rain.png) | ![](../assets/screenshots/05_VID_ORS_Night_Fog.png) |
 
 ---
 

@@ -35,7 +35,17 @@ A Tesla Model 3 operating under FSD was involved in a secondary collision on Hig
 
 ### Environmental Variations
 
-![CARLA Screenshot](../assets/screenshots/01_VID_FTSA_CARLA.png)
+| Noon — Clear | Noon — Rain | Noon — Fog |
+|:---:|:---:|:---:|
+| ![](../assets/screenshots/01_VID_FSA_Noon_Clear.png) | ![](../assets/screenshots/01_VID_FSA_Noon_Rain.png) | ![](../assets/screenshots/01_VID_FSA_Noon_Fog.png) |
+
+| Twilight — Clear | Twilight — Rain | Twilight — Fog |
+|:---:|:---:|:---:|
+| ![](../assets/screenshots/01_VID_FSA_Twilight_Clear.png) | ![](../assets/screenshots/01_VID_FSA_Noon_Rain.png) | ![](../assets/screenshots/01_VID_FSA_Twilight_Fog.png) |
+
+| Night — Clear | Night — Rain | Night — Fog |
+|:---:|:---:|:---:|
+| ![](../assets/screenshots/01_VID_FSA_Night_Clear.png) | ![](../assets/screenshots/01_VID_FSA_Night_Rain.png) | ![](../assets/screenshots/01_VID_FSA_Night_Fog.png) |
 
 ---
 

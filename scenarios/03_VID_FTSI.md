@@ -35,7 +35,17 @@ A Tesla Model S on Autopilot failed to stop at a red light at an urban intersect
 
 ### Environmental Variations
 
-![CARLA Screenshot](../assets/screenshots/03_VID_FTSI_CARLA.png)
+| Noon — Clear | Noon — Rain | Noon — Fog |
+|:---:|:---:|:---:|
+| ![](../assets/screenshots/03_VID_FSI_Noon_Clear.png) | ![](../assets/screenshots/03_VID_FSI_Noon_Rain.png) | ![](../assets/screenshots/03_VID_FSI_Noon_Fog.png) |
+
+| Twilight — Clear | Twilight — Rain | Twilight — Fog |
+|:---:|:---:|:---:|
+| ![](../assets/screenshots/03_VID_FSI_Twilight_Clear.png) | ![](../assets/screenshots/03_VID_FSI_Noon_Rain.png) | ![](../assets/screenshots/03_VID_FSI_Twilight_Fog.png) |
+
+| Night — Clear | Night — Rain | Night — Fog |
+|:---:|:---:|:---:|
+| ![](../assets/screenshots/03_VID_FSI_Night_Clear.png) | ![](../assets/screenshots/03_VID_FSI_Night_Rain.png) | ![](../assets/screenshots/03_VID_FSI_Night_Fog.png) |
 
 ---
 
