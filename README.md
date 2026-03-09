@@ -92,7 +92,7 @@ Each base scenario can be augmented with environmental variations. CARLA screens
 
 ## Simulation Scripts
 
-CARLA reconstruction scripts for scenarios 06–20 are provided in the [`scripts/`](scripts/) directory. Each script spawns the ego vehicle, configures sensors (RGB, semantic segmentation, depth), runs the scenario to completion, and writes per-frame metadata to a `metadata.jsonl` file.
+CARLA reconstruction scripts provided in the [`scripts/`](scripts/) directory. Each script spawns the ego vehicle, configures sensors (RGB, semantic segmentation, depth), runs the scenario to completion, and writes per-frame metadata to a `metadata.jsonl` file.
 
 **Prerequisites:** CARLA 0.9.x running locally with PythonAPI configured.
 
