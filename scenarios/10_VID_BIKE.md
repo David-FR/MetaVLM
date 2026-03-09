@@ -47,6 +47,20 @@ A self-driving vehicle on Autopilot struck a pedestrian crossing the highway at 
 |:---:|:---:|:---:|
 | ![](../assets/screenshots/10_VID_BIKE_Night_Clear.png) | ![](../assets/screenshots/10_VID_BIKE_Night_Rain.png) | ![](../assets/screenshots/10_VID_BIKE_Night_Fog.png) |
 
+### Simulation Script
+
+The CARLA reconstruction script for this scenario is [`scripts/10_VID_BIKE_scenario.py`](../scripts/10_VID_BIKE_scenario.py).
+
+**Prerequisites:** CARLA 0.9.x running locally with PythonAPI configured.
+
+**Run:**
+```bash
+# Place inside your CARLA PythonAPI directory tree, then:
+python 10_VID_BIKE_scenario.py
+```
+
+Output frames and `metadata.jsonl` are saved to `./sessions/<timestamp>/`.
+
 ---
 
 [Back to Dataset Overview](../README.md)

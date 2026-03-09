@@ -47,6 +47,20 @@ A Tesla Model 3 operating under FSD was involved in a secondary collision on Hig
 |:---:|:---:|:---:|
 | ![](../assets/screenshots/01_VID_FSA_Night_Clear.png) | ![](../assets/screenshots/01_VID_FSA_Night_Rain.png) | ![](../assets/screenshots/01_VID_FSA_Night_Fog.png) |
 
+### Simulation Script
+
+The CARLA reconstruction script for this scenario is [`scripts/01_VID_FTSA_scenario.py`](../scripts/01_VID_FTSA_scenario.py).
+
+**Prerequisites:** CARLA 0.9.x running locally with PythonAPI configured.
+
+**Run:**
+```bash
+# Place inside your CARLA PythonAPI directory tree, then:
+python 01_VID_FTSA_scenario.py
+```
+
+Output frames and `metadata.jsonl` are saved to `./sessions/<timestamp>/`.
+
 ---
 
 [Back to Dataset Overview](../README.md)

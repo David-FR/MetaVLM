@@ -50,6 +50,20 @@ A Tesla Model S on Autopilot struck a partially obstructing parked tractor-trail
 |:---:|:---:|:---:|
 | ![](../assets/screenshots/19_REP_AREN_Night_Clear.png) | ![](../assets/screenshots/19_REP_AREN_Night_Rain.png) | ![](../assets/screenshots/19_REP_AREN_Night_Fog.png) |
 
+### Simulation Script
+
+The CARLA reconstruction script for this scenario is [`scripts/19_REP_AREN_scenario.py`](../scripts/19_REP_AREN_scenario.py).
+
+**Prerequisites:** CARLA 0.9.x running locally with PythonAPI configured.
+
+**Run:**
+```bash
+# Place inside your CARLA PythonAPI directory tree, then:
+python 19_REP_AREN_scenario.py
+```
+
+Output frames and `metadata.jsonl` are saved to `./sessions/<timestamp>/`.
+
 ---
 
 [Back to Dataset Overview](../README.md)

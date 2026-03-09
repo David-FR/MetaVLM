@@ -47,6 +47,20 @@ A Tesla Model Y on Autopilot departed the road surface toward an off-road hazard
 |:---:|:---:|:---:|
 | ![](../assets/screenshots/05_VID_ORS_Night_Clear.png) | ![](../assets/screenshots/05_VID_ORS_Night_Rain.png) | ![](../assets/screenshots/05_VID_ORS_Night_Fog.png) |
 
+### Simulation Script
+
+The CARLA reconstruction script for this scenario is [`scripts/05_VID_ORS_scenario.py`](../scripts/05_VID_ORS_scenario.py).
+
+**Prerequisites:** CARLA 0.9.x running locally with PythonAPI configured.
+
+**Run:**
+```bash
+# Place inside your CARLA PythonAPI directory tree, then:
+python 05_VID_ORS_scenario.py
+```
+
+Output frames and `metadata.jsonl` are saved to `./sessions/<timestamp>/`.
+
 ---
 
 [Back to Dataset Overview](../README.md)

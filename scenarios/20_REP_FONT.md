@@ -51,6 +51,20 @@ A Tesla Model 3 with automated driving engaged struck an overturned tractor-trai
 |:---:|:---:|:---:|
 | ![](../assets/screenshots/20_REP_FONT_Night_Clear.png) | ![](../assets/screenshots/20_REP_FONT_Night_Rain.png) | ![](../assets/screenshots/20_REP_FONT_Night_Fog.png) |
 
+### Simulation Script
+
+The CARLA reconstruction script for this scenario is [`scripts/20_REP_FONT_scenario.py`](../scripts/20_REP_FONT_scenario.py).
+
+**Prerequisites:** CARLA 0.9.x running locally with PythonAPI configured.
+
+**Run:**
+```bash
+# Place inside your CARLA PythonAPI directory tree, then:
+python 20_REP_FONT_scenario.py
+```
+
+Output frames and `metadata.jsonl` are saved to `./sessions/<timestamp>/`.
+
 ---
 
 [Back to Dataset Overview](../README.md)

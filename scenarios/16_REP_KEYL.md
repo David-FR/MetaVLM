@@ -50,6 +50,20 @@ A Tesla Model S on Autopilot ran through a stop sign and a flashing red light at
 |:---:|:---:|:---:|
 | ![](../assets/screenshots/16_REP_KEYL_Night_Clear.png) | ![](../assets/screenshots/16_REP_KEYL_Night_Rain.png) | ![](../assets/screenshots/16_REP_KEYL_Night_Fog.png) |
 
+### Simulation Script
+
+The CARLA reconstruction script for this scenario is [`scripts/16_REP_KEYL_scenario.py`](../scripts/16_REP_KEYL_scenario.py).
+
+**Prerequisites:** CARLA 0.9.x running locally with PythonAPI configured.
+
+**Run:**
+```bash
+# Place inside your CARLA PythonAPI directory tree, then:
+python 16_REP_KEYL_scenario.py
+```
+
+Output frames and `metadata.jsonl` are saved to `./sessions/<timestamp>/`.
+
 ---
 
 [Back to Dataset Overview](../README.md)

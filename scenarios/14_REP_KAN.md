@@ -51,6 +51,20 @@ A Tesla Model X on Autopilot accelerated following a lane change and struck a va
 |:---:|:---:|:---:|
 | ![](../assets/screenshots/14_REP_KAN_Night_Clear.png) | ![](../assets/screenshots/14_REP_KAN_Night_Rain.png) | ![](../assets/screenshots/14_REP_KAN_Night_Fog.png) |
 
+### Simulation Script
+
+The CARLA reconstruction script for this scenario is [`scripts/14_REP_KAN_scenario.py`](../scripts/14_REP_KAN_scenario.py).
+
+**Prerequisites:** CARLA 0.9.x running locally with PythonAPI configured.
+
+**Run:**
+```bash
+# Place inside your CARLA PythonAPI directory tree, then:
+python 14_REP_KAN_scenario.py
+```
+
+Output frames and `metadata.jsonl` are saved to `./sessions/<timestamp>/`.
+
 ---
 
 [Back to Dataset Overview](../README.md)

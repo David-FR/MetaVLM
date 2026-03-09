@@ -47,6 +47,20 @@ A Tesla Robotaxi operating in fully autonomous mode (FSD V14.3) failed to execut
 |:---:|:---:|:---:|
 | ![](../assets/screenshots/07_VID_ROBO_Night_Clear.png) | ![](../assets/screenshots/07_VID_ROBO_Night_Rain.png) | ![](../assets/screenshots/07_VID_ROBO_Night_Fog.png) |
 
+### Simulation Script
+
+The CARLA reconstruction script for this scenario is [`scripts/07_VID_ROBO_scenario.py`](../scripts/07_VID_ROBO_scenario.py).
+
+**Prerequisites:** CARLA 0.9.x running locally with PythonAPI configured.
+
+**Run:**
+```bash
+# Place inside your CARLA PythonAPI directory tree, then:
+python 07_VID_ROBO_scenario.py
+```
+
+Output frames and `metadata.jsonl` are saved to `./sessions/<timestamp>/`.
+
 ---
 
 [Back to Dataset Overview](../README.md)

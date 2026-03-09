@@ -53,6 +53,20 @@ A Tesla Model 3 on Autopilot rear-ended a parked fire truck on an interstate hig
 |:---:|:---:|:---:|
 | ![](../assets/screenshots/17_REP_CLVD_Night_Clear.png) | ![](../assets/screenshots/17_REP_CLVD_Night_Rain.png) | ![](../assets/screenshots/17_REP_CLVD_Night_Fog.png) |
 
+### Simulation Script
+
+The CARLA reconstruction script for this scenario is [`scripts/17_REP_CLVD_scenario.py`](../scripts/17_REP_CLVD_scenario.py).
+
+**Prerequisites:** CARLA 0.9.x running locally with PythonAPI configured.
+
+**Run:**
+```bash
+# Place inside your CARLA PythonAPI directory tree, then:
+python 17_REP_CLVD_scenario.py
+```
+
+Output frames and `metadata.jsonl` are saved to `./sessions/<timestamp>/`.
+
 ---
 
 [Back to Dataset Overview](../README.md)

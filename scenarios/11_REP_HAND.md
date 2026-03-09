@@ -53,6 +53,20 @@ A Tesla Model S operating under Autopilot failed to reduce speed when approachin
 |:---:|:---:|:---:|
 | ![](../assets/screenshots/11_REP_HAND_Night_Clear.png) | ![](../assets/screenshots/11_REP_HAND_Night_Rain.png) | ![](../assets/screenshots/11_REP_HAND_Night_Fog.png) |
 
+### Simulation Script
+
+The CARLA reconstruction script for this scenario is [`scripts/11_REP_HAND_scenario.py`](../scripts/11_REP_HAND_scenario.py).
+
+**Prerequisites:** CARLA 0.9.x running locally with PythonAPI configured.
+
+**Run:**
+```bash
+# Place inside your CARLA PythonAPI directory tree, then:
+python 11_REP_HAND_scenario.py
+```
+
+Output frames and `metadata.jsonl` are saved to `./sessions/<timestamp>/`.
+
 ---
 
 [Back to Dataset Overview](../README.md)

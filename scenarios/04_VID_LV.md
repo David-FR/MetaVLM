@@ -47,6 +47,20 @@ A Tesla Model 3 on Autopilot departed its lane on Highway US-101 at highway spee
 |:---:|:---:|:---:|
 | ![](../assets/screenshots/04_VID_LV_Night_Clear.png) | ![](../assets/screenshots/04_VID_LV_Noon_Rain.png) | ![](../assets/screenshots/04_VID_LV_Night_Fog.png) |
 
+### Simulation Script
+
+The CARLA reconstruction script for this scenario is [`scripts/04_VID_LV_scenario.py`](../scripts/04_VID_LV_scenario.py).
+
+**Prerequisites:** CARLA 0.9.x running locally with PythonAPI configured.
+
+**Run:**
+```bash
+# Place inside your CARLA PythonAPI directory tree, then:
+python 04_VID_LV_scenario.py
+```
+
+Output frames and `metadata.jsonl` are saved to `./sessions/<timestamp>/`.
+
 ---
 
 [Back to Dataset Overview](../README.md)

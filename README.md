@@ -27,6 +27,7 @@ The dataset comprises 20 base scenarios reconstructed from documented AV failure
 - [Dataset Structure](#dataset-structure)
 - [Base Scenarios](#base-scenarios)
 - [Environmental Variations](#environmental-variations)
+- [Simulation Scripts](#simulation-scripts)
 - [Metadata Schema](#metadata-schema)
 - [Getting Started](#getting-started)
 
@@ -86,3 +87,42 @@ Each base scenario can be augmented with environmental variations. CARLA screens
 - `NOON`: Full daylight
 - `TWILIGHT`: Dawn/dusk conditions
 - `NIGHT`: Low light conditions
+
+
+
+## Simulation Scripts
+
+CARLA reconstruction scripts for scenarios 06–20 are provided in the [`scripts/`](scripts/) directory. Each script spawns the ego vehicle, configures sensors (RGB, semantic segmentation, depth), runs the scenario to completion, and writes per-frame metadata to a `metadata.jsonl` file.
+
+**Prerequisites:** CARLA 0.9.x running locally with PythonAPI configured.
+
+**Run any scenario:**
+```bash
+# Place the script inside your CARLA PythonAPI directory tree, then:
+python <scenario_id>_scenario.py
+```
+
+Output frames and `metadata.jsonl` are saved to `./sessions/<timestamp>/`.
+
+| Script | Scenario |
+|--------|---------|
+| [`01_VID_FTSA_scenario.py`](scripts/01_VID_FTSA_scenario.py) | CA-101 — FSD Secondary Collision |
+| [`02_VID_FTSB_scenario.py`](scripts/02_VID_FTSB_scenario.py) | I-5 — High-Speed Rear-End Collision |
+| [`03_VID_FTSI_scenario.py`](scripts/03_VID_FTSI_scenario.py) | Urban Intersection — Red Light Failure |
+| [`04_VID_LV_scenario.py`](scripts/04_VID_LV_scenario.py) | US-101 — Highway Lane Departure |
+| [`05_VID_ORS_scenario.py`](scripts/05_VID_ORS_scenario.py) | Off-Road Hazard Departure |
+| [`06_VID_FSD_scenario.py`](scripts/06_VID_FSD_scenario.py) | Highway — FSD v13.2.8 Exit Attempt Failure |
+| [`07_VID_ROBO_scenario.py`](scripts/07_VID_ROBO_scenario.py) | Urban — Tesla Robotaxi Failed Left Turn |
+| [`08_VID_M3_scenario.py`](scripts/08_VID_M3_scenario.py) | Rural Highway — Model 3 FSD Tree Crash |
+| [`09_VID_CRASH_scenario.py`](scripts/09_VID_CRASH_scenario.py) | Highway — High-Speed Nighttime Collision |
+| [`10_VID_BIKE_scenario.py`](scripts/10_VID_BIKE_scenario.py) | Highway — Nighttime Pedestrian Fatality |
+| [`11_REP_HAND_scenario.py`](scripts/11_REP_HAND_scenario.py) | Handan, China — Stationary Street Sweeper |
+| [`12_REP_WILL_scenario.py`](scripts/12_REP_WILL_scenario.py) | Williston, Florida — Left-Turning Semi-Trailer |
+| [`13_REP_MTV_scenario.py`](scripts/13_REP_MTV_scenario.py) | Mountain View, California — Highway Barrier |
+| [`14_REP_KAN_scenario.py`](scripts/14_REP_KAN_scenario.py) | Kanagawa, Japan — Expressway Pedestrian Strike |
+| [`15_REP_DELR_scenario.py`](scripts/15_REP_DELR_scenario.py) | Delray Beach, Florida — Semi-Trailer Underride |
+| [`16_REP_KEYL_scenario.py`](scripts/16_REP_KEYL_scenario.py) | Key Largo, Florida — T-Intersection Stop Sign Failure |
+| [`17_REP_CLVD_scenario.py`](scripts/17_REP_CLVD_scenario.py) | Cloverdale, Indiana — Stationary Fire Truck on Highway |
+| [`18_REP_GARD_scenario.py`](scripts/18_REP_GARD_scenario.py) | Gardena, California — Nighttime Red Light Failure |
+| [`19_REP_AREN_scenario.py`](scripts/19_REP_AREN_scenario.py) | Arendal, Norway — Parked Truck After Tunnel Exit |
+| [`20_REP_FONT_scenario.py`](scripts/20_REP_FONT_scenario.py) | Fontana, California — Nighttime Overturned Trailer on Freeway |

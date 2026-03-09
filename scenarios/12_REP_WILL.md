@@ -58,6 +58,20 @@ A Tesla Model S on Autopilot failed to brake for an 18-wheel tractor-trailer mak
 |:---:|:---:|:---:|
 | ![](../assets/screenshots/12_REP_WILL_Night_Clear.png) | ![](../assets/screenshots/12_REP_WILL_Night_Rain.png) | ![](../assets/screenshots/12_REP_WILL_Night_Fog.png) |
 
+### Simulation Script
+
+The CARLA reconstruction script for this scenario is [`scripts/12_REP_WILL_scenario.py`](../scripts/12_REP_WILL_scenario.py).
+
+**Prerequisites:** CARLA 0.9.x running locally with PythonAPI configured.
+
+**Run:**
+```bash
+# Place inside your CARLA PythonAPI directory tree, then:
+python 12_REP_WILL_scenario.py
+```
+
+Output frames and `metadata.jsonl` are saved to `./sessions/<timestamp>/`.
+
 ---
 
 [Back to Dataset Overview](../README.md)

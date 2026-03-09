@@ -47,6 +47,20 @@ A Tesla Model Y on Autopilot rear-ended another vehicle at highway speed on Inte
 |:---:|:---:|:---:|
 | ![](../assets/screenshots/02_VID_FSB_Night_Clear.png) | ![](../assets/screenshots/02_VID_FSB_Night_Rain.png) | ![](../assets/screenshots/02_VID_FSB_Night_Fog.png) |
 
+### Simulation Script
+
+The CARLA reconstruction script for this scenario is [`scripts/02_VID_FTSB_scenario.py`](../scripts/02_VID_FTSB_scenario.py).
+
+**Prerequisites:** CARLA 0.9.x running locally with PythonAPI configured.
+
+**Run:**
+```bash
+# Place inside your CARLA PythonAPI directory tree, then:
+python 02_VID_FTSB_scenario.py
+```
+
+Output frames and `metadata.jsonl` are saved to `./sessions/<timestamp>/`.
+
 ---
 
 [Back to Dataset Overview](../README.md)
