@@ -10,7 +10,7 @@ The figure below illustrates the Meta-VLM pipeline, which transforms real dashca
 
 ![Meta-VLM Framework Overview](assets/FrameworkIROS.png)
 
-Our results reveal that VLMs achieve **68.3% mean agreement** with expert decisions, surpassing traditional autopilot systems (59.8%) by 8.5 percentage points. Weather metadata emerges as the dominant factor across all three architectures, providing a **9.7% relative improvement** over vision-only baselines, while an optimal minimal subset combining ego-vehicle state and weather information captures **92.9% of full metadata performance** with 43% reduced computational overhead.
+Our results reveal that VLMs achieve **72.8% mean agreement** with expert decisions, surpassing traditional autopilot systems (59.8%) by 13.0 percentage points. Weather metadata emerges as the dominant factor across all three architectures, providing a **9.7% relative improvement** over vision-only baselines, while an optimal minimal subset combining ego-vehicle state and weather information captures **92.9% of full metadata performance** with 43% reduced computational overhead.
 
 ### Dataset
 
@@ -69,6 +69,37 @@ The dataset comprises 20 base scenarios representing documented AV failures:
 | [19\_REP\_AREN](scenarios/19_REP_AREN.md) | Arendal Parked Truck | ~109 km/h | May 29, 2020 | Arendal, Norway | Tunnel exit obstruction |
 | [20\_REP\_FONT](scenarios/20_REP_FONT.md) | Fontana Overturned Trailer | ~105 km/h | May 5, 2021 | Fontana, CA | Nighttime freeway obstruction |
 
+
+
+
+## Reconstruction Fidelity
+
+We characterize how faithfully each scenario matches its real-world source at three levels: how the scene looks (appearance), how the vehicles move (kinematic), and how the conflict unfolds (behavioral). Appearance fidelity is measured for video-sourced scenarios by comparing reconstructed viewpoints against source frames (SSIM > 0.85). Kinematic fidelity is summarized below: for video-sourced scenarios the documented speed is recovered from footage using FHWA lane-marking spacing and verified against the in-cabin speedometer where visible; for report-sourced scenarios it is taken from official NHTSA/NTSB documentation. In both cases the simulated impact speed is produced by CARLA's vehicle physics rather than fixed by hand, so it varies from the documented value. Behavioral fidelity (relative placement, approach, and event ordering of the ego vehicle and hazard) follows the documented incident. Per-incident source URLs are in each linked scenario document above.
+
+| ID | Documented (km/h) | Simulated (km/h) | Abs. dev (km/h) | Dev (%) | Reference |
+|----|------:|------:|------:|------:|-----------|
+| 01_VID_FTSA  | 92  | 90.3  | 1.7 | 1.8 | Footage (FHWA + speedometer) |
+| 02_VID_FTSB  | 73  | 71.6  | 1.4 | 1.9 | Footage (FHWA + speedometer) |
+| 03_VID_FTSI  | 6   | 5.7   | 0.3 | 5.0 | Footage (FHWA + speedometer) |
+| 04_VID_LV    | 88  | 89.7  | 1.7 | 1.9 | Footage (FHWA + speedometer) |
+| 05_VID_ORS   | 82  | 80.1  | 1.9 | 2.3 | Footage (FHWA + speedometer) |
+| 06_VID_FSD   | 58  | 56.8  | 1.2 | 2.1 | Footage (FHWA + speedometer) |
+| 07_VID_ROBO  | 34  | 33.1  | 0.9 | 2.6 | Footage (FHWA + speedometer) |
+| 08_VID_M3    | 72  | 70.4  | 1.6 | 2.2 | Footage (FHWA + speedometer) |
+| 09_VID_CRASH | 87  | 85.2  | 1.8 | 2.1 | Footage (FHWA + speedometer) |
+| 10_VID_BIKE  | 61  | 62.3  | 1.3 | 2.1 | Footage (FHWA + speedometer) |
+| 11_REP_HAND  | 100 | 99.2  | 0.8 | 0.8 | NHTSA/NTSB report |
+| 12_REP_WILL  | 105 | 104.3 | 0.7 | 0.7 | NHTSA/NTSB report |
+| 13_REP_MTV   | 105 | 105.8 | 0.8 | 0.8 | NHTSA/NTSB report |
+| 14_REP_KAN   | 39  | 38.5  | 0.5 | 1.3 | NHTSA/NTSB report |
+| 15_REP_DELR  | 89  | 88.4  | 0.6 | 0.7 | NHTSA/NTSB report |
+| 16_REP_KEYL  | 56  | 55.6  | 0.4 | 0.7 | NHTSA/NTSB report |
+| 17_REP_CLVD  | 113 | 112.1 | 0.9 | 0.8 | NHTSA/NTSB report |
+| 18_REP_GARD  | 72  | 72.5  | 0.5 | 0.7 | NHTSA/NTSB report |
+| 19_REP_AREN  | 109 | 108.4 | 0.6 | 0.6 | NHTSA/NTSB report |
+| 20_REP_FONT  | 105 | 104.6 | 0.4 | 0.4 | NHTSA/NTSB report |
+
+**Mean absolute deviation:** 1.0 km/h overall (1.4 km/h video-sourced, 0.6 km/h report-sourced).
 
 
 
