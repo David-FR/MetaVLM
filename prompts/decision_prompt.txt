@@ -1,0 +1,44 @@
+Meta-VLM decision prompt
+=========================
+
+Every VLM receives the scene RGB frame plus the text prompt below. All three
+models (NVILA-Lite-8B, MoE-LLaVA, Qwen2.5-VL) receive identical text, so
+performance differences reflect model capability rather than prompt engineering.
+
+The only part that changes across the metadata ablation is the "Context:" line,
+which is assembled from the metadata fields included in each configuration.
+Raw numeric metadata is converted to plain-language descriptions before being
+inserted into the Context line.
+
+
+PROMPT TEMPLATE
+---------------
+You are an autonomous driving decision model. Given the scene image and the concise metadata, pick the next best action.
+
+Context: <metadata rendered as plain language; see per-configuration assembly below>
+
+Options: Brake | Accelerate | Turn Left | Turn Right | Maintain speed
+Reply in JSON: {"action": "<one of options>", "rationale": "<25 words>"}
+Respond with ONLY that JSON object. No extra text.
+
+
+CONTEXT LINE BY ABLATION CONFIGURATION
+--------------------------------------
+Fields are added cumulatively across the five configurations:
+
+  image_only        (0 params)   Context line omitted; RGB frame only.
+  ego_only          (+6 params)  + velocity, acceleration, control inputs
+  ego+lane          (+10 params) + lane offset, curvature, speed limit, junction flag
+  ego+lane+weather  (+14 params) + weather, visibility, road surface
+  full              (+22 params) + dynamic actors, time-to-collision, risk metrics
+
+
+EXAMPLE (ego+lane+weather configuration, one fog frame)
+-------------------------------------------------------
+You are an autonomous driving decision model. Given the scene image and the concise metadata, pick the next best action.
+
+Context: Ego 0.7 m/s (2 km/h), accel 9.8 m/s^2, yaw 0.0 /s, throttle 0.00, brake 0.00, steer 0.0000. Lane: limit 30 km/h, junction no, lane offset +0.00 m. Weather: fog.
+
+Options: Brake | Accelerate | Turn Left | Turn Right | Maintain speed
+Reply in JSON: {"action": "<one of options>", "rationale": "<25 words>"}
+Respond with ONLY that JSON object. No extra text.

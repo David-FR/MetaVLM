@@ -28,6 +28,8 @@ The dataset comprises 20 base scenarios reconstructed from documented AV failure
 - [Base Scenarios](#base-scenarios)
 - [Environmental Variations](#environmental-variations)
 - [Simulation Scripts](#simulation-scripts)
+- [Decision Prompt](#decision-prompt)
+- [Results](#results)
 - [Metadata Schema](#metadata-schema)
 - [Getting Started](#getting-started)
 
@@ -35,7 +37,15 @@ The dataset comprises 20 base scenarios reconstructed from documented AV failure
 
 ## Base Scenarios
 
-The dataset comprises 20 base scenarios representing documented AV failures:
+The dataset comprises 20 base scenarios representing documented AV failures. The table below summarizes the dataset by source; the full per-scenario breakdown follows.
+
+| Source Type | Incident Types | Scenarios | Speed Range |
+|-------------|----------------|:---------:|-------------|
+| Video-Sourced | Secondary collision, rear-end, intersection failure, lane departure, off-road hazard, frontal crash, FSD exit attempt, cyclist fatality | 10 | 15–110 km/h |
+| Report-Sourced | Stationary obstacle, semi-trailer underride, pedestrian fatality, stop sign failure, red light failure, emergency vehicle collision | 10 | 25–115 km/h |
+| **Base Total** | **14 incident types** | **20** | **15–115 km/h** |
+
+Environmental expansion (10 core scenarios): 3 weather × 3 times of day yields up to 9 conditions per scenario, with some augmented by added traffic density, for **~100 total instances**.
 
 ### Video-Sourced Scenarios (10 scenarios)
 
@@ -157,3 +167,52 @@ Output frames and `metadata.jsonl` are saved to `./sessions/<timestamp>/`.
 | [`18_REP_GARD_scenario.py`](scripts/18_REP_GARD_scenario.py) | Gardena, California — Nighttime Red Light Failure |
 | [`19_REP_AREN_scenario.py`](scripts/19_REP_AREN_scenario.py) | Arendal, Norway — Parked Truck After Tunnel Exit |
 | [`20_REP_FONT_scenario.py`](scripts/20_REP_FONT_scenario.py) | Fontana, California — Nighttime Overturned Trailer on Freeway |
+
+
+
+## Decision Prompt
+
+Every VLM receives the scene RGB frame plus a single text prompt. All three models (NVILA-Lite-8B, MoE-LLaVA, Qwen2.5-VL) receive identical text, so performance differences reflect model capability rather than prompt engineering. The only part that changes across the metadata ablation is the `Context:` line, which is assembled from the metadata fields included in each of the five configurations (`image_only` through `full`) and rendered as plain language rather than raw numbers.
+
+The full prompt template, the per-configuration assembly of the `Context:` line, and a worked example are in [`prompts/decision_prompt.txt`](prompts/decision_prompt.txt).
+
+```
+You are an autonomous driving decision model. Given the scene image and the concise metadata, pick the next best action.
+
+Context: Ego 0.7 m/s (2 km/h), accel 9.8 m/s^2, yaw 0.0 /s, throttle 0.00, brake 0.00, steer 0.0000. Lane: limit 30 km/h, junction no, lane offset +0.00 m. Weather: fog.
+
+Options: Brake | Accelerate | Turn Left | Turn Right | Maintain speed
+Reply in JSON: {"action": "<one of options>", "rationale": "<25 words>"}
+Respond with ONLY that JSON object. No extra text.
+```
+
+
+
+## Results
+
+### Metadata Performance-Efficiency Analysis
+
+Accuracy, prompt token count, inference latency, and a normalized efficiency score for each metadata configuration, averaged across the three VLMs (NVILA-Lite-8B, MoE-LLaVA, Qwen2.5-VL). The minimal `ego+weather` subset captures **92.9% of full-metadata accuracy** (67.6% vs. 72.8%) at a **43% lower token count** (384 vs. 672) and **8.9% lower latency** (1125 ms vs. 1235 ms). This is the complete version of the table summarized in the paper.
+
+| Configuration | Acc. (%) | Tokens (n) | Latency (ms) | Eff. Score* |
+|---------------|---------:|-----------:|-------------:|------------:|
+| `image_only` (Vision only) | 61.6 | 312 | 1035 | 0.59 |
+| `+Ego`        | 63.9 | 348 | 1090 | 0.59 |
+| `+Lane`       | 60.4 | 412 | 1148 | 0.53 |
+| `+Weather`    | 67.6 | 476 | 1200 | 0.57 |
+| `Full`        | 72.8 | 672 | 1235 | 0.59 |
+| **`Ego+Weather`** | **67.6** | **384** | **1125** | **0.57** |
+
+\* Efficiency Score = Accuracy / (Latency × Tokens)^0.5, normalized.
+
+### Decision Agreement Matrix
+
+Agreement (%) of each system's decisions with the three references (expert annotators, CARLA autopilot, and observed crash behavior) under the full metadata configuration, with Cohen's κ against expert ground truth. This is the complete version of the matrix summarized in the paper. All three VLMs exceed the autopilot's expert agreement, and all show much lower agreement with crash behavior than the autopilot does (20.4% mean vs. 31.2%), reflecting a safety-conservative bias absent from the rule-based baseline.
+
+| Model | vs. Expert | vs. Autopilot | vs. Crash | κ (Expert) |
+|-------|-----------:|--------------:|----------:|-----------:|
+| NVILA-Lite-8B | 76.4 | 76.2 | 19.1 | 0.62 |
+| MoE-LLaVA | 68.4 | 70.8 | 22.4 | 0.50 |
+| Qwen2.5-VL | 73.5 | 73.5 | 19.8 | 0.58 |
+| **Model Mean** | **72.8** | **73.5** | **20.4** | **0.57** |
+| Autopilot | 59.8 | — | 31.2 | 0.36 |
