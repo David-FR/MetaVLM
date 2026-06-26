@@ -35,6 +35,21 @@ The dataset comprises 20 base scenarios reconstructed from documented AV failure
 
 
 
+## Dataset Structure
+
+```
+.
+├── scenarios/      20 per-scenario documents (source, speed, map, coordinates, screenshots)
+├── scripts/        20 CARLA reconstruction scripts (one per scenario)
+├── prompts/        VLM decision-prompt template and per-configuration context assembly
+├── assets/         framework figure, per-scenario screenshots, and GIFs
+│   ├── screenshots/    CARLA renders per scenario x weather x time-of-day
+│   └── gifs/           short scenario clips
+└── README.md       this file
+```
+
+Scenario IDs follow `NN_<VID|REP>_<TAG>` (e.g. `01_VID_FTSA`, `14_REP_KAN`), where `VID` marks dashcam-sourced and `REP` report-sourced scenarios; the same ID keys the script, scenario document, and screenshots.
+
 ## Base Scenarios
 
 The dataset comprises 20 base scenarios representing documented AV failures. The table below summarizes the dataset by source; the full per-scenario breakdown follows.
@@ -62,7 +77,7 @@ Environmental expansion (10 core scenarios): 3 weather × 3 times of day yields 
 | [09\_VID\_CRASH](scenarios/09_VID_CRASH.md) | High-Speed Highway Collision | ~87 km/h | Feb 27, 2021 | Highway | Nighttime scenario |
 | [10\_VID\_BIKE](scenarios/10_VID_BIKE.md) | Pedestrian Fatality | ~61 km/h | Mar 18, 2018 | Highway | Nighttime fatality |
 
-*Note: Full details including exact source URLs and reconstruction parameters available in `/scenarios/base_scenarios/`*
+*Note: Full details including exact source URLs and reconstruction parameters are in each linked scenario document above (`scenarios/`).*
 
 ### Report-Sourced Scenarios (10 scenarios)
 
@@ -216,3 +231,47 @@ Agreement (%) of each system's decisions with the three references (expert annot
 | Qwen2.5-VL | 73.5 | 73.5 | 19.8 | 0.58 |
 | **Model Mean** | **72.8** | **73.5** | **20.4** | **0.57** |
 | Autopilot | 59.8 | — | 31.2 | 0.36 |
+
+
+
+## Metadata Schema
+
+Each reconstruction script writes one JSON line per recorded frame to `metadata.jsonl`. A frame record bundles the ego state, lane context, weather, the list of nearby actors, and the risk summary, alongside paths to the saved RGB, semantic-segmentation, and depth images. The records map directly onto the metadata families used in the ablation (ego, lane, weather, actors, risk).
+
+```
+FrameRecord
+  frame_id        int            frame index
+  sim_time        float          simulation time (s)
+  rgb_path        str            saved RGB frame
+  seg_path        str            semantic segmentation (color)
+  seg_raw_path    str            semantic segmentation (raw label ids)
+  depth_path      str            depth map
+  ego             EgoState
+  lane            LaneContext
+  weather         WeatherSummary
+  actors          List[ActorSummary]
+  risk            RiskSummary
+
+EgoState          speed_mps, accel_mps2, yaw_rate_dps, throttle, steer, brake
+LaneContext       road_id, lane_id, lane_width_m, lane_offset_m, curvature_1pm,
+                  speed_limit_kmh, is_junction, light_state, dist_to_stopline_m
+WeatherSummary    rain, fog, wetness, cloudiness, sun_alt_deg, sun_az_deg
+ActorSummary      actor_id, cls, role, distance_m, bearing_deg, rel_speed_mps, lane_relation
+RiskSummary       ttc_s, headway_s, gap_m, rel_speed_mps, target_class
+```
+
+Raw numeric fields are converted to plain-language descriptions before being inserted into the prompt's `Context:` line (see [Decision Prompt](#decision-prompt)). The cumulative ablation configurations (`image_only`, `ego_only`, `ego+lane`, `+weather`, `full`) select which of these families are included.
+
+## Getting Started
+
+**Prerequisites:** a local CARLA 0.9.x server running with the PythonAPI configured. Python dependencies are `numpy` and `Pillow` plus the bundled `carla` package; the scripts auto-locate the `carla` egg from their position in the PythonAPI tree.
+
+```bash
+# 1. Start the CARLA server (separate terminal)
+./CarlaUE4.sh
+
+# 2. Place a scenario script inside your CARLA PythonAPI directory tree and run it
+python 01_VID_FTSA_scenario.py
+```
+
+Output frames and `metadata.jsonl` are written to `./sessions/<timestamp>/`. Per-scenario parameters (map, start/destination, target speed, duration) are set in the constants at the top of each script; see [Simulation Scripts](#simulation-scripts) for the full list.
