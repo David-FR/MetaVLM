@@ -16,9 +16,9 @@
 
 ![Accident Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Tesla_Mountain_View_Accident.gif/960px-Tesla_Mountain_View_Accident.gif)
 
-A Tesla Model X on Autopilot drifted into a concrete highway divider at a carpool lane exit and was subsequently struck by two following vehicles, resulting in a fatal collision. Both NHTSA and NTSB launched formal investigations. The driver was Apple software engineer Walter Huang.
+A Tesla Model X on Autopilot drifted into a concrete highway divider at a carpool lane exit and was subsequently struck by two following vehicles, resulting in a fatal collision. Both NHTSA and NTSB launched formal investigations.
 
-**Notes:** NHTSA and NTSB investigations initiated; driver was Apple engineer Walter Huang.
+**Notes:** NHTSA and NTSB investigations initiated.
 
 **Sources:**
 - [Reuters — Tesla says crashed vehicle had been on Autopilot prior to accident](https://www.reuters.com/article/us-tesla-crash/tesla-says-crashed-vehicle-had-been-on-autopilot-prior-to-accident-idUSKBN1H7023)
@@ -37,7 +37,7 @@ A Tesla Model X on Autopilot drifted into a concrete highway divider at a carpoo
 - [NTSB — Safety Recommendation H-17-042](https://www.ntsb.gov/_layouts/ntsb.recsearch/Recommendation.aspx?Rec=H-17-042)
 - [NTSB — Safety Recommendation Press Release (Sept 2019)](https://www.ntsb.gov/news/press-releases/Pages/NR20190909.aspx)
 - [CNBC — Tesla settles lawsuit over Autopilot crash that killed Apple engineer (2024)](https://www.cnbc.com/2024/04/08/tesla-settles-wrongful-death-lawsuit-over-fatal-2018-autopilot-crash.html)
-- [ABC7 Chicago — Tesla settles with Apple engineer Walter Huang's family](https://abc7chicago.com/tesla-settles-with-apple-engineer-walter-huangs-family-who-said-autopilot-caused-fatal-mountain-view-crash/14635870/)
+- [ABC7 Chicago: Settlement following the Mountain View crash](https://abc7chicago.com/tesla-settles-with-apple-engineer-walter-huangs-family-who-said-autopilot-caused-fatal-mountain-view-crash/14635870/)
 
 ---
 
