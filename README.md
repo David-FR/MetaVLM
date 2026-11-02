@@ -33,6 +33,7 @@ The dataset comprises 20 base scenarios reconstructed from documented AV failure
 - [Results](#results)
 - [Metadata Schema](#metadata-schema)
 - [Getting Started](#getting-started)
+- [Citation](#citation)
 
 
 
@@ -292,3 +293,16 @@ python 01_VID_FTSA_scenario.py
 ```
 
 Output frames and `metadata.jsonl` are written to `./sessions/<timestamp>/`. Per-scenario parameters (map, start/destination, target speed, duration) are set in the constants at the top of each script; see [Simulation Scripts](#simulation-scripts) for the full list.
+
+## Citation
+
+If you use Meta-VLM in your research, please cite our paper, accepted at WACV 2027:
+
+```bibtex
+@inproceedings{fernandez2027metavlm,
+  author    = {Fernandez, David and MohajerAnsari, Pedram and Salarpour, Amir and Pes{\'e}, Mert D.},
+  title     = {{Meta-VLM}: Which Metadata Do {Vision-Language Models} Need to Drive Safely?},
+  booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+  year      = {2027}
+}
+```
