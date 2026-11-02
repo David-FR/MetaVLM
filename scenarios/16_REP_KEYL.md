@@ -14,7 +14,7 @@
 | Outcome | One fatality, two pedestrians injured |
 | CARLA Map | Town07 |
 
-![Accident Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Key_Largo_Tesla_Crash.gif/250px-Key_Largo_Tesla_Crash.gif)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Key_Largo_Tesla_Crash.gif/250px-Key_Largo_Tesla_Crash.gif" alt="Accident Diagram" width="480">
 
 A Tesla Model S on Autopilot ran through a stop sign and a flashing red light at a T-intersection, striking a parked SUV that was then pushed into two pedestrians, killing one. The driver had been distracted by a dropped phone. Autopilot was confirmed engaged at the time of the incident.
 

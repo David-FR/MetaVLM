@@ -14,7 +14,7 @@
 | Outcome | One passenger fatality |
 | CARLA Map | Town06 |
 
-![Accident Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Cloverdale_Accident.gif/500px-Cloverdale_Accident.gif)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Cloverdale_Accident.gif/500px-Cloverdale_Accident.gif" alt="Accident Diagram" width="480">
 
 A Tesla Model 3 on Autopilot rear-ended a parked fire truck on an interstate highway at highway speed, killing one passenger. NHTSA confirmed Autopilot was engaged at the time of the crash. The surviving driver filed a civil lawsuit against Tesla in 2021.
 

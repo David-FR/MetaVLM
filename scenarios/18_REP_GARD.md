@@ -14,7 +14,7 @@
 | Outcome | Two fatalities |
 | CARLA Map | Town06 |
 
-![Accident Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Gardena_Accident.gif/500px-Gardena_Accident.gif)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Gardena_Accident.gif/500px-Gardena_Accident.gif" alt="Accident Diagram" width="480">
 
 A Tesla Model S failed to stop for a red light after exiting a freeway at night, striking a turning Honda Civic and killing two occupants. NHTSA confirmed Autopilot was active at the time. The Tesla driver was subsequently charged with vehicular manslaughter — one of the first such criminal charges involving an Autopilot-related fatality.
 

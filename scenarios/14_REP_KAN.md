@@ -14,7 +14,7 @@
 | Outcome | Fatal collision |
 | CARLA Map | Town06 |
 
-![Accident Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Kanawaga_Accident.gif/960px-Kanawaga_Accident.gif)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Kanawaga_Accident.gif/960px-Kanawaga_Accident.gif" alt="Accident Diagram" width="480">
 
 A Tesla Model X on Autopilot accelerated following a lane change and struck a van, then continued into pedestrians on an expressway. The driver had fallen asleep at the wheel. This was the first documented case of an Autopilot-engaged vehicle striking and killing a pedestrian.
 

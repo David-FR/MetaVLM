@@ -14,7 +14,7 @@
 | Outcome | Fatal collision |
 | CARLA Map | Town06 |
 
-![Accident Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Arendal_Accident.gif/960px-Arendal_Accident.gif)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Arendal_Accident.gif/960px-Arendal_Accident.gif" alt="Accident Diagram" width="480">
 
 A Tesla Model S on Autopilot struck a partially obstructing parked tractor-trailer on the highway hard shoulder immediately after exiting a tunnel, resulting in a fatal collision. Autopilot had been engaged approximately 4 km before the accident site. No warning lights or safety triangle were visible on the stationary truck.
 

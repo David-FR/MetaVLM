@@ -14,7 +14,7 @@
 | Outcome | Fatal collision |
 | CARLA Map | Town04 |
 
-![Accident Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Williston_Accident.gif/960px-Williston_Accident.gif)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Williston_Accident.gif/960px-Williston_Accident.gif" alt="Accident Diagram" width="480">
 
 A Tesla Model S on Autopilot failed to brake for an 18-wheel tractor-trailer making a left turn across the highway at an intersection. The vehicle drove under the trailer at highway speed, resulting in a fatal collision. This was the first Autopilot fatality in the United States, prompting a formal NHTSA investigation.
 

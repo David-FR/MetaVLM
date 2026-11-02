@@ -14,7 +14,7 @@
 | Outcome | Fatal collision |
 | CARLA Map | Town04 |
 
-![Accident Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Tesla_Mountain_View_Accident.gif/960px-Tesla_Mountain_View_Accident.gif)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Tesla_Mountain_View_Accident.gif/960px-Tesla_Mountain_View_Accident.gif" alt="Accident Diagram" width="480">
 
 A Tesla Model X on Autopilot drifted into a concrete highway divider at a carpool lane exit and was subsequently struck by two following vehicles, resulting in a fatal collision. Both NHTSA and NTSB launched formal investigations.
 

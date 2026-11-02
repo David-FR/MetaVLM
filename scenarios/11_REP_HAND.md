@@ -14,7 +14,7 @@
 | Outcome | Fatal collision |
 | CARLA Map | Town04 |
 
-![Accident Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Handan_Accident.gif/960px-Handan_Accident.gif)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Handan_Accident.gif/960px-Handan_Accident.gif" alt="Accident Diagram" width="480">
 
 A Tesla Model S operating under Autopilot failed to reduce speed when approaching a stationary street sweeper stopped on the highway shoulder, resulting in a fatal collision. Dashcam footage confirmed the obstacle's presence well in advance of the crash. This was the first publicly reported Autopilot fatality in China.
 

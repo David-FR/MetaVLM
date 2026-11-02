@@ -14,7 +14,7 @@
 | Outcome | Fatal collision |
 | CARLA Map | Town04 |
 
-![Accident Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Delray_Beach_Accident.gif/960px-Delray_Beach_Accident.gif)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Delray_Beach_Accident.gif/960px-Delray_Beach_Accident.gif" alt="Accident Diagram" width="480">
 
 A Tesla Model 3 on Autopilot drove under a left-turning semi-trailer truck at a private driveway entrance at dawn, resulting in a fatality. Autopilot had been engaged for approximately 10 seconds before impact, and no hands were detected on the steering wheel for the final 8 seconds prior to the crash.
 
