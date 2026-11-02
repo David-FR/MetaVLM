@@ -29,6 +29,7 @@ The dataset comprises 20 base scenarios reconstructed from documented AV failure
 - [Environmental Variations](#environmental-variations)
 - [Simulation Scripts](#simulation-scripts)
 - [Decision Prompt](#decision-prompt)
+- [Leave-One-Out Ablation](#leave-one-out-ablation)
 - [Results](#results)
 - [Metadata Schema](#metadata-schema)
 - [Getting Started](#getting-started)
@@ -42,6 +43,7 @@ The dataset comprises 20 base scenarios reconstructed from documented AV failure
 ├── scenarios/      20 per-scenario documents (source, speed, map, coordinates, screenshots)
 ├── scripts/        20 CARLA reconstruction scripts (one per scenario)
 ├── prompts/        VLM decision-prompt template and per-configuration context assembly
+├── ablation/       metadata preparation, prediction analysis, and tests
 ├── assets/         framework figure, per-scenario screenshots, and GIFs
 │   ├── screenshots/    CARLA renders per scenario x weather x time-of-day
 │   └── gifs/           short scenario clips
@@ -80,6 +82,8 @@ Environmental expansion (10 core scenarios): 3 weather × 3 times of day yields 
 *Note: Full details including exact source URLs and reconstruction parameters are in each linked scenario document above (`scenarios/`).*
 
 ### Report-Sourced Scenarios (10 scenarios)
+
+Scenario pages include externally sourced incident illustrations linked from Wikimedia Commons. These illustrations vary in visual style and level of detail.
 
 | ID | Name | Speed | Date | Location | Notes |
 |----|------|-------|------|----------|-------|
@@ -202,6 +206,19 @@ Respond with ONLY that JSON object. No extra text.
 ```
 
 
+
+## Leave-One-Out Ablation
+
+The tools in [`ablation/`](ablation/README.md) prepare matched inputs for Full metadata and four removals: ego, lane, weather, and actors/risk. Each selected frame is included in all five configurations, with three run IDs per configuration. VLM inference runs externally; these tools do not load models.
+
+Starting with recordings and expert action labels:
+
+1. List the selected frames and labels in `samples.jsonl`.
+2. Use `ablation/prepare.py` to create inputs and separate labels for scoring.
+3. Run the VLM model(s) externally and save their predictions.
+4. Use `ablation/analyze.py` to calculate accuracy and paired Full-minus-ablated differences. Use `--average scenario` to give each base scenario equal weight.
+
+The [ablation README](ablation/README.md) documents the input formats, commands, checks, and interpretation. The current analysis reports variation across three runs; comparisons between environmental subsets and bootstrap confidence intervals across base scenarios are not yet implemented.
 
 ## Results
 
